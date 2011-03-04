@@ -34,7 +34,7 @@ namespace EnvipressLogistic
         private void ControlAlmacen_Load(object sender, EventArgs e)
         {
 
-            this.reportViewer1.RefreshReport();
+           
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
