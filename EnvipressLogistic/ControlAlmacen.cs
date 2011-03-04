@@ -13,6 +13,7 @@ namespace EnvipressLogistic
     {
         public ControlAlmacen()
         {
+            IsMdiContainer = true;
             InitializeComponent();
         }
 
