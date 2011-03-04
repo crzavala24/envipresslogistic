@@ -40,6 +40,10 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarAlmacenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.almacenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -76,6 +80,9 @@
             // 
             // toolStripMenuItem2
             // 
+            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reservasToolStripMenuItem,
+            this.almacenesToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
             this.toolStripMenuItem2.Size = new System.Drawing.Size(35, 20);
             this.toolStripMenuItem2.Text = "Ver";
@@ -83,9 +90,13 @@
             // 
             // toolStripMenuItem3
             // 
+            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.buscarReservaToolStripMenuItem,
+            this.buscarAlmacenToolStripMenuItem});
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
             this.toolStripMenuItem3.Size = new System.Drawing.Size(51, 20);
             this.toolStripMenuItem3.Text = "Buscar";
+            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // menuStrip1
             // 
@@ -139,6 +150,31 @@
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
+            // buscarReservaToolStripMenuItem
+            // 
+            this.buscarReservaToolStripMenuItem.Name = "buscarReservaToolStripMenuItem";
+            this.buscarReservaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.buscarReservaToolStripMenuItem.Text = "Buscar Reserva";
+            // 
+            // buscarAlmacenToolStripMenuItem
+            // 
+            this.buscarAlmacenToolStripMenuItem.Name = "buscarAlmacenToolStripMenuItem";
+            this.buscarAlmacenToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.buscarAlmacenToolStripMenuItem.Text = "Buscar Almacen";
+            // 
+            // reservasToolStripMenuItem
+            // 
+            this.reservasToolStripMenuItem.Name = "reservasToolStripMenuItem";
+            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.reservasToolStripMenuItem.Text = "Reservas";
+            // 
+            // almacenesToolStripMenuItem
+            // 
+            this.almacenesToolStripMenuItem.Name = "almacenesToolStripMenuItem";
+            this.almacenesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.almacenesToolStripMenuItem.Text = "Almacenes";
             // 
             // ControlAlmacen
             // 
@@ -178,6 +214,10 @@
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarReservaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reservasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem almacenesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem buscarAlmacenToolStripMenuItem;
 
     }
 }
