@@ -16,5 +16,10 @@ namespace EnvipressLogistic
             InitializeComponent();
         }
 
+        private void FormPadre_Load(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
