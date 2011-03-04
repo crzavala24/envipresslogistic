@@ -47,5 +47,17 @@ namespace EnvipressLogistic
         {
 
         }
+
+        private void salirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Mostramos mensaje de alerta al cerrar el formulario con la pestaña salir.
+            if (MessageBox.Show("Desea Salir", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+                Close();
+        }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
