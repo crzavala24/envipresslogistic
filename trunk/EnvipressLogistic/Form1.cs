@@ -9,11 +9,12 @@ using System.Windows.Forms;
 
 namespace EnvipressLogistic
 {
-    public partial class Form1 : Form
+    public partial class FormPadre : Form
     {
-        public Form1()
+        public FormPadre()
         {
             InitializeComponent();
         }
+
     }
 }
