@@ -32,18 +32,19 @@
             this.insertarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.borrarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.reservasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.almacenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarAlmacenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarAlmacenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.reservasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.almacenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.button1 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -78,6 +79,13 @@
             this.borrarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.borrarReservaToolStripMenuItem.Text = "Borrar Reserva";
             // 
+            // salirToolStripMenuItem
+            // 
+            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
+            this.salirToolStripMenuItem.Text = "Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -88,6 +96,18 @@
             this.toolStripMenuItem2.Text = "Ver";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
+            // reservasToolStripMenuItem
+            // 
+            this.reservasToolStripMenuItem.Name = "reservasToolStripMenuItem";
+            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.reservasToolStripMenuItem.Text = "Reservas";
+            // 
+            // almacenesToolStripMenuItem
+            // 
+            this.almacenesToolStripMenuItem.Name = "almacenesToolStripMenuItem";
+            this.almacenesToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
+            this.almacenesToolStripMenuItem.Text = "Almacenes";
+            // 
             // toolStripMenuItem3
             // 
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -97,6 +117,18 @@
             this.toolStripMenuItem3.Size = new System.Drawing.Size(51, 20);
             this.toolStripMenuItem3.Text = "Buscar";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            // 
+            // buscarReservaToolStripMenuItem
+            // 
+            this.buscarReservaToolStripMenuItem.Name = "buscarReservaToolStripMenuItem";
+            this.buscarReservaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.buscarReservaToolStripMenuItem.Text = "Buscar Reserva";
+            // 
+            // buscarAlmacenToolStripMenuItem
+            // 
+            this.buscarAlmacenToolStripMenuItem.Name = "buscarAlmacenToolStripMenuItem";
+            this.buscarAlmacenToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
+            this.buscarAlmacenToolStripMenuItem.Text = "Buscar Almacen";
             // 
             // menuStrip1
             // 
@@ -145,36 +177,14 @@
             this.progressBar1.TabIndex = 2;
             this.progressBar1.Click += new System.EventHandler(this.progressBar1_Click);
             // 
-            // salirToolStripMenuItem
+            // button1
             // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
-            // 
-            // buscarReservaToolStripMenuItem
-            // 
-            this.buscarReservaToolStripMenuItem.Name = "buscarReservaToolStripMenuItem";
-            this.buscarReservaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.buscarReservaToolStripMenuItem.Text = "Buscar Reserva";
-            // 
-            // buscarAlmacenToolStripMenuItem
-            // 
-            this.buscarAlmacenToolStripMenuItem.Name = "buscarAlmacenToolStripMenuItem";
-            this.buscarAlmacenToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.buscarAlmacenToolStripMenuItem.Text = "Buscar Almacen";
-            // 
-            // reservasToolStripMenuItem
-            // 
-            this.reservasToolStripMenuItem.Name = "reservasToolStripMenuItem";
-            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.reservasToolStripMenuItem.Text = "Reservas";
-            // 
-            // almacenesToolStripMenuItem
-            // 
-            this.almacenesToolStripMenuItem.Name = "almacenesToolStripMenuItem";
-            this.almacenesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.almacenesToolStripMenuItem.Text = "Almacenes";
+            this.button1.Location = new System.Drawing.Point(598, 398);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(122, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Refrescar";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // ControlAlmacen
             // 
@@ -182,6 +192,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(752, 432);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
@@ -218,6 +229,7 @@
         private System.Windows.Forms.ToolStripMenuItem reservasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem almacenesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buscarAlmacenToolStripMenuItem;
+        private System.Windows.Forms.Button button1;
 
     }
 }
