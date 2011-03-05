@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAInsertar Reserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAInsertar Reserva.Designer.cs">
+      <DependentUpon>CAInsertar Reserva.cs</DependentUpon>
+    </Compile>
     <Compile Include="ControlAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CAInsertar Reserva.resx">
+      <DependentUpon>CAInsertar Reserva.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ControlAlmacen.resx">
       <DependentUpon>ControlAlmacen.cs</DependentUpon>
     </EmbeddedResource>
