@@ -53,23 +53,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CABorrar Reserva.cs">
+    <Compile Include="CABorrarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CABorrar Reserva.Designer.cs">
-      <DependentUpon>CABorrar Reserva.cs</DependentUpon>
+    <Compile Include="CABorrarReserva.Designer.cs">
+      <DependentUpon>CABorrarReserva.cs</DependentUpon>
     </Compile>
-    <Compile Include="CAInsertar Reserva.cs">
+    <Compile Include="CAInsertarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CAInsertar Reserva.Designer.cs">
-      <DependentUpon>CAInsertar Reserva.cs</DependentUpon>
+    <Compile Include="CAInsertarReserva.Designer.cs">
+      <DependentUpon>CAInsertarReserva.cs</DependentUpon>
     </Compile>
-    <Compile Include="CAModificar Reserva.cs">
+    <Compile Include="CAModificarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CAModificar Reserva.Designer.cs">
-      <DependentUpon>CAModificar Reserva.cs</DependentUpon>
+    <Compile Include="CAModificarReserva.Designer.cs">
+      <DependentUpon>CAModificarReserva.cs</DependentUpon>
     </Compile>
     <Compile Include="ControlAlmacen.cs">
       <SubType>Form</SubType>
@@ -91,14 +91,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CABorrar Reserva.resx">
-      <DependentUpon>CABorrar Reserva.cs</DependentUpon>
+    <EmbeddedResource Include="CABorrarReserva.resx">
+      <DependentUpon>CABorrarReserva.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CAInsertar Reserva.resx">
-      <DependentUpon>CAInsertar Reserva.cs</DependentUpon>
+    <EmbeddedResource Include="CAInsertarReserva.resx">
+      <DependentUpon>CAInsertarReserva.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CAModificar Reserva.resx">
-      <DependentUpon>CAModificar Reserva.cs</DependentUpon>
+    <EmbeddedResource Include="CAModificarReserva.resx">
+      <DependentUpon>CAModificarReserva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ControlAlmacen.resx">
       <DependentUpon>ControlAlmacen.cs</DependentUpon>

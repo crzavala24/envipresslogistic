@@ -68,7 +68,7 @@
             this.groupBox1.Size = new System.Drawing.Size(456, 373);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Borrar Reserva";
+            this.groupBox1.Text = "Modificar Reserva";
             // 
             // button1
             // 
@@ -165,7 +165,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.groupBox1);
             this.Name = "CAModificar_Reserva";
-            this.Text = "CAModificar_Reserva";
+            this.Text = "Modificar Reserva";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
