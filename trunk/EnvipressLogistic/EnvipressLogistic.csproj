@@ -59,6 +59,12 @@
     <Compile Include="CABorrarReserva.Designer.cs">
       <DependentUpon>CABorrarReserva.cs</DependentUpon>
     </Compile>
+    <Compile Include="CABuscarAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CABuscarAlmacen.Designer.cs">
+      <DependentUpon>CABuscarAlmacen.cs</DependentUpon>
+    </Compile>
     <Compile Include="CABuscarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CABorrarReserva.resx">
       <DependentUpon>CABorrarReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CABuscarAlmacen.resx">
+      <DependentUpon>CABuscarAlmacen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CABuscarReserva.resx">
       <DependentUpon>CABuscarReserva.cs</DependentUpon>
