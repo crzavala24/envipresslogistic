@@ -91,7 +91,7 @@
             this.groupBox1.Size = new System.Drawing.Size(346, 183);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Buscar Reserva";
+            this.groupBox1.Text = "Buscar Almacen";
             // 
             // label4
             // 
