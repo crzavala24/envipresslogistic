@@ -71,6 +71,12 @@
     <Compile Include="CAModificarReserva.Designer.cs">
       <DependentUpon>CAModificarReserva.cs</DependentUpon>
     </Compile>
+    <Compile Include="CAVerAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CAVerAlmacen.Designer.cs">
+      <DependentUpon>CAVerAlmacen.cs</DependentUpon>
+    </Compile>
     <Compile Include="CAVerReservas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -105,6 +111,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="CAModificarReserva.resx">
       <DependentUpon>CAModificarReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CAVerAlmacen.resx">
+      <DependentUpon>CAVerAlmacen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CAVerReservas.resx">
       <DependentUpon>CAVerReservas.cs</DependentUpon>
