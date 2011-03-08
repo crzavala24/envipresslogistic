@@ -125,7 +125,9 @@
     <Compile Include="DatosEmpleados.Designer.cs">
       <DependentUpon>DatosEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="DetallePedido.cs" />
+    <Compile Include="DetallePedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="DetallePedido.Designer.cs">
       <DependentUpon>DetallePedido.cs</DependentUpon>
     </Compile>
