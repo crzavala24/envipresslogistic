@@ -23,3 +23,5 @@ C:\Users\Rubén\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressL
 C:\Users\Rubén\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.pdb
 C:\Users\Angel\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.exe
 C:\Users\Angel\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.pdb
+E:\Mis_Documentos\Documents\Compartido\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.exe
+E:\Mis_Documentos\Documents\Compartido\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.pdb
