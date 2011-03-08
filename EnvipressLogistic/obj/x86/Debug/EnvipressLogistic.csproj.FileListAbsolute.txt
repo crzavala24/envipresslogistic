@@ -21,3 +21,5 @@ C:\Users\Rubén\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\GenerateRe
 C:\Users\Rubén\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Rubén\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.exe
 C:\Users\Rubén\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\Proyecto DPAA\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.pdb
