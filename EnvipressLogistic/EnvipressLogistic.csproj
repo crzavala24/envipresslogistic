@@ -53,6 +53,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AltaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaEmpleado.Designer.cs">
+      <DependentUpon>AltaEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BajaEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BajaEmpleado.Designer.cs">
+      <DependentUpon>BajaEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="CABorrarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,11 +113,23 @@
     <Compile Include="ControlAlmacen.Designer.cs">
       <DependentUpon>ControlAlmacen.cs</DependentUpon>
     </Compile>
+    <Compile Include="DatosEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DatosEmpleados.Designer.cs">
+      <DependentUpon>DatosEmpleados.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestionPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GestionPersonal.Designer.cs">
       <DependentUpon>GestionPersonal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Horarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Horarios.Designer.cs">
+      <DependentUpon>Horarios.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIPruebaMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -113,8 +137,20 @@
     <Compile Include="MDIPruebaMenuPrincipal.Designer.cs">
       <DependentUpon>MDIPruebaMenuPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Nominas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nominas.Designer.cs">
+      <DependentUpon>Nominas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AltaEmpleado.resx">
+      <DependentUpon>AltaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BajaEmpleado.resx">
+      <DependentUpon>BajaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CABorrarReserva.resx">
       <DependentUpon>CABorrarReserva.cs</DependentUpon>
     </EmbeddedResource>
@@ -139,11 +175,20 @@
     <EmbeddedResource Include="ControlAlmacen.resx">
       <DependentUpon>ControlAlmacen.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DatosEmpleados.resx">
+      <DependentUpon>DatosEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestionPersonal.resx">
       <DependentUpon>GestionPersonal.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Horarios.resx">
+      <DependentUpon>Horarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIPruebaMenuPrincipal.resx">
       <DependentUpon>MDIPruebaMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nominas.resx">
+      <DependentUpon>Nominas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
