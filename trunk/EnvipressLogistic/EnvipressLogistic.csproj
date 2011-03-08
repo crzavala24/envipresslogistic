@@ -65,6 +65,12 @@
     <Compile Include="BajaEmpleado.Designer.cs">
       <DependentUpon>BajaEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="BuscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuscarCliente.Designer.cs">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="CABorrarReserva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,10 @@
     <Compile Include="DatosEmpleados.Designer.cs">
       <DependentUpon>DatosEmpleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="Flota.cs" />
+    <Compile Include="Flota.designer.cs">
+      <DependentUpon>Flota.cs</DependentUpon>
+    </Compile>
     <Compile Include="GestionPersonal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +140,10 @@
     </Compile>
     <Compile Include="Horarios.Designer.cs">
       <DependentUpon>Horarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IncidenciasAnteriores.cs" />
+    <Compile Include="IncidenciasAnteriores.designer.cs">
+      <DependentUpon>IncidenciasAnteriores.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIPruebaMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -143,6 +157,10 @@
     <Compile Include="Nominas.Designer.cs">
       <DependentUpon>Nominas.cs</DependentUpon>
     </Compile>
+    <Compile Include="PerfilCliente.cs" />
+    <Compile Include="PerfilCliente.Designer.cs">
+      <DependentUpon>PerfilCliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AltaEmpleado.resx">
@@ -150,6 +168,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BajaEmpleado.resx">
       <DependentUpon>BajaEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuscarCliente.resx">
+      <DependentUpon>BuscarCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CABorrarReserva.resx">
       <DependentUpon>CABorrarReserva.cs</DependentUpon>
@@ -178,17 +199,26 @@
     <EmbeddedResource Include="DatosEmpleados.resx">
       <DependentUpon>DatosEmpleados.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Flota.resx">
+      <DependentUpon>Flota.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestionPersonal.resx">
       <DependentUpon>GestionPersonal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Horarios.resx">
       <DependentUpon>Horarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="IncidenciasAnteriores.resx">
+      <DependentUpon>IncidenciasAnteriores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDIPruebaMenuPrincipal.resx">
       <DependentUpon>MDIPruebaMenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Nominas.resx">
       <DependentUpon>Nominas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PerfilCliente.resx">
+      <DependentUpon>PerfilCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
