@@ -20,3 +20,8 @@ C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x8
 C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.PerfilCliente.resources
 C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\bin\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\bin\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.Properties.Resources.resources
+C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.pdb
