@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AltaEmpleado));
             this.menuAltaEmpleado = new System.Windows.Forms.MenuStrip();
             this.ArchivoEmpleado = new System.Windows.Forms.ToolStripMenuItem();
             this.limpiarDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -40,21 +39,23 @@
             this.deshacerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.rehacerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.lbAltaEmpleado = new System.Windows.Forms.Label();
-            this.gbAltaEmpleado = new System.Windows.Forms.GroupBox();
-            this.txtApellido2 = new System.Windows.Forms.TextBox();
-            this.txtApellido1 = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.lbApellido2 = new System.Windows.Forms.Label();
-            this.lbApellido1 = new System.Windows.Forms.Label();
-            this.lbNombre = new System.Windows.Forms.Label();
             this.btAceptar = new System.Windows.Forms.Button();
             this.btCancelar = new System.Windows.Forms.Button();
+            this.lbNombre = new System.Windows.Forms.Label();
+            this.lbApellido1 = new System.Windows.Forms.Label();
+            this.lbApellido2 = new System.Windows.Forms.Label();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtApellido1 = new System.Windows.Forms.TextBox();
+            this.txtApellido2 = new System.Windows.Forms.TextBox();
             this.lbDni = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.lbSegSocial = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.lbEstadoCivil = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.gbAltaEmpleado = new System.Windows.Forms.GroupBox();
             this.menuAltaEmpleado.SuspendLayout();
             this.gbAltaEmpleado.SuspendLayout();
             this.SuspendLayout();
@@ -148,19 +149,158 @@
             this.lbAltaEmpleado.AutoSize = true;
             this.lbAltaEmpleado.BackColor = System.Drawing.Color.Transparent;
             this.lbAltaEmpleado.Font = new System.Drawing.Font("Arial Rounded MT Bold", 21.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbAltaEmpleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.lbAltaEmpleado.ForeColor = System.Drawing.Color.Black;
             this.lbAltaEmpleado.Location = new System.Drawing.Point(13, 13);
             this.lbAltaEmpleado.Name = "lbAltaEmpleado";
             this.lbAltaEmpleado.Size = new System.Drawing.Size(292, 33);
             this.lbAltaEmpleado.TabIndex = 1;
             this.lbAltaEmpleado.Text = "NUEVO EMPLEADO";
             // 
+            // btAceptar
+            // 
+            this.btAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btAceptar.Location = new System.Drawing.Point(1202, 397);
+            this.btAceptar.Name = "btAceptar";
+            this.btAceptar.Size = new System.Drawing.Size(75, 23);
+            this.btAceptar.TabIndex = 3;
+            this.btAceptar.Text = "Aceptar";
+            this.btAceptar.UseVisualStyleBackColor = true;
+            // 
+            // btCancelar
+            // 
+            this.btCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btCancelar.Location = new System.Drawing.Point(1283, 397);
+            this.btCancelar.Name = "btCancelar";
+            this.btCancelar.Size = new System.Drawing.Size(75, 23);
+            this.btCancelar.TabIndex = 4;
+            this.btCancelar.Text = "Cancelar";
+            this.btCancelar.UseVisualStyleBackColor = true;
+            // 
+            // lbNombre
+            // 
+            this.lbNombre.AutoSize = true;
+            this.lbNombre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombre.Location = new System.Drawing.Point(15, 26);
+            this.lbNombre.Name = "lbNombre";
+            this.lbNombre.Size = new System.Drawing.Size(72, 15);
+            this.lbNombre.TabIndex = 0;
+            this.lbNombre.Text = "NOMBRE :";
+            // 
+            // lbApellido1
+            // 
+            this.lbApellido1.AutoSize = true;
+            this.lbApellido1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbApellido1.Location = new System.Drawing.Point(261, 26);
+            this.lbApellido1.Name = "lbApellido1";
+            this.lbApellido1.Size = new System.Drawing.Size(92, 15);
+            this.lbApellido1.TabIndex = 1;
+            this.lbApellido1.Text = "APELLIDO 1 :";
+            // 
+            // lbApellido2
+            // 
+            this.lbApellido2.AutoSize = true;
+            this.lbApellido2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbApellido2.Location = new System.Drawing.Point(527, 26);
+            this.lbApellido2.Name = "lbApellido2";
+            this.lbApellido2.Size = new System.Drawing.Size(92, 15);
+            this.lbApellido2.TabIndex = 2;
+            this.lbApellido2.Text = "APELLIDO 2 :";
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Location = new System.Drawing.Point(93, 24);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(162, 20);
+            this.txtNombre.TabIndex = 3;
+            // 
+            // txtApellido1
+            // 
+            this.txtApellido1.Location = new System.Drawing.Point(359, 24);
+            this.txtApellido1.Name = "txtApellido1";
+            this.txtApellido1.Size = new System.Drawing.Size(162, 20);
+            this.txtApellido1.TabIndex = 4;
+            // 
+            // txtApellido2
+            // 
+            this.txtApellido2.Location = new System.Drawing.Point(625, 24);
+            this.txtApellido2.Name = "txtApellido2";
+            this.txtApellido2.Size = new System.Drawing.Size(162, 20);
+            this.txtApellido2.TabIndex = 5;
+            // 
+            // lbDni
+            // 
+            this.lbDni.AutoSize = true;
+            this.lbDni.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDni.Location = new System.Drawing.Point(793, 26);
+            this.lbDni.Name = "lbDni";
+            this.lbDni.Size = new System.Drawing.Size(63, 15);
+            this.lbDni.TabIndex = 6;
+            this.lbDni.Text = "NIF/NIE :";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(862, 24);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(98, 20);
+            this.textBox1.TabIndex = 7;
+            // 
+            // lbSegSocial
+            // 
+            this.lbSegSocial.AutoSize = true;
+            this.lbSegSocial.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbSegSocial.Location = new System.Drawing.Point(256, 59);
+            this.lbSegSocial.Name = "lbSegSocial";
+            this.lbSegSocial.Size = new System.Drawing.Size(117, 15);
+            this.lbSegSocial.TabIndex = 8;
+            this.lbSegSocial.Text = "Nº SEG. SOCIAL :";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(379, 57);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(162, 20);
+            this.textBox2.TabIndex = 9;
+            // 
+            // lbEstadoCivil
+            // 
+            this.lbEstadoCivil.AutoSize = true;
+            this.lbEstadoCivil.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbEstadoCivil.Location = new System.Drawing.Point(15, 59);
+            this.lbEstadoCivil.Name = "lbEstadoCivil";
+            this.lbEstadoCivil.Size = new System.Drawing.Size(107, 15);
+            this.lbEstadoCivil.TabIndex = 10;
+            this.lbEstadoCivil.Text = "ESTADO CIVIL :";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(128, 57);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(122, 21);
+            this.comboBox1.TabIndex = 11;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(547, 59);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(117, 15);
+            this.label2.TabIndex = 12;
+            this.label2.Text = "NACIONALIDAD :";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(670, 58);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(147, 20);
+            this.textBox3.TabIndex = 13;
+            // 
             // gbAltaEmpleado
             // 
-            this.gbAltaEmpleado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
             this.gbAltaEmpleado.BackColor = System.Drawing.Color.Transparent;
+            this.gbAltaEmpleado.Controls.Add(this.textBox3);
+            this.gbAltaEmpleado.Controls.Add(this.label2);
             this.gbAltaEmpleado.Controls.Add(this.comboBox1);
             this.gbAltaEmpleado.Controls.Add(this.lbEstadoCivil);
             this.gbAltaEmpleado.Controls.Add(this.textBox2);
@@ -173,141 +313,18 @@
             this.gbAltaEmpleado.Controls.Add(this.lbApellido2);
             this.gbAltaEmpleado.Controls.Add(this.lbApellido1);
             this.gbAltaEmpleado.Controls.Add(this.lbNombre);
-            this.gbAltaEmpleado.Location = new System.Drawing.Point(12, 49);
+            this.gbAltaEmpleado.Location = new System.Drawing.Point(76, 61);
             this.gbAltaEmpleado.Name = "gbAltaEmpleado";
-            this.gbAltaEmpleado.Size = new System.Drawing.Size(1003, 342);
+            this.gbAltaEmpleado.Size = new System.Drawing.Size(1002, 137);
             this.gbAltaEmpleado.TabIndex = 2;
             this.gbAltaEmpleado.TabStop = false;
-            // 
-            // txtApellido2
-            // 
-            this.txtApellido2.Location = new System.Drawing.Point(171, 102);
-            this.txtApellido2.Name = "txtApellido2";
-            this.txtApellido2.Size = new System.Drawing.Size(181, 20);
-            this.txtApellido2.TabIndex = 5;
-            // 
-            // txtApellido1
-            // 
-            this.txtApellido1.Location = new System.Drawing.Point(171, 68);
-            this.txtApellido1.Name = "txtApellido1";
-            this.txtApellido1.Size = new System.Drawing.Size(181, 20);
-            this.txtApellido1.TabIndex = 4;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Location = new System.Drawing.Point(171, 34);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(181, 20);
-            this.txtNombre.TabIndex = 3;
-            // 
-            // lbApellido2
-            // 
-            this.lbApellido2.AutoSize = true;
-            this.lbApellido2.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbApellido2.Location = new System.Drawing.Point(39, 102);
-            this.lbApellido2.Name = "lbApellido2";
-            this.lbApellido2.Size = new System.Drawing.Size(92, 15);
-            this.lbApellido2.TabIndex = 2;
-            this.lbApellido2.Text = "APELLIDO 2 :";
-            // 
-            // lbApellido1
-            // 
-            this.lbApellido1.AutoSize = true;
-            this.lbApellido1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbApellido1.Location = new System.Drawing.Point(39, 68);
-            this.lbApellido1.Name = "lbApellido1";
-            this.lbApellido1.Size = new System.Drawing.Size(92, 15);
-            this.lbApellido1.TabIndex = 1;
-            this.lbApellido1.Text = "APELLIDO 1 :";
-            // 
-            // lbNombre
-            // 
-            this.lbNombre.AutoSize = true;
-            this.lbNombre.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombre.Location = new System.Drawing.Point(39, 34);
-            this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(72, 15);
-            this.lbNombre.TabIndex = 0;
-            this.lbNombre.Text = "NOMBRE :";
-            // 
-            // btAceptar
-            // 
-            this.btAceptar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btAceptar.Location = new System.Drawing.Point(859, 397);
-            this.btAceptar.Name = "btAceptar";
-            this.btAceptar.Size = new System.Drawing.Size(75, 23);
-            this.btAceptar.TabIndex = 3;
-            this.btAceptar.Text = "Aceptar";
-            this.btAceptar.UseVisualStyleBackColor = true;
-            // 
-            // btCancelar
-            // 
-            this.btCancelar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btCancelar.Location = new System.Drawing.Point(940, 397);
-            this.btCancelar.Name = "btCancelar";
-            this.btCancelar.Size = new System.Drawing.Size(75, 23);
-            this.btCancelar.TabIndex = 4;
-            this.btCancelar.Text = "Cancelar";
-            this.btCancelar.UseVisualStyleBackColor = true;
-            // 
-            // lbDni
-            // 
-            this.lbDni.AutoSize = true;
-            this.lbDni.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDni.Location = new System.Drawing.Point(42, 137);
-            this.lbDni.Name = "lbDni";
-            this.lbDni.Size = new System.Drawing.Size(38, 15);
-            this.lbDni.TabIndex = 6;
-            this.lbDni.Text = "DNI :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(171, 137);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(181, 20);
-            this.textBox1.TabIndex = 7;
-            // 
-            // lbSegSocial
-            // 
-            this.lbSegSocial.AutoSize = true;
-            this.lbSegSocial.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbSegSocial.Location = new System.Drawing.Point(42, 174);
-            this.lbSegSocial.Name = "lbSegSocial";
-            this.lbSegSocial.Size = new System.Drawing.Size(117, 15);
-            this.lbSegSocial.TabIndex = 8;
-            this.lbSegSocial.Text = "Nº SEG. SOCIAL :";
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(171, 174);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(181, 20);
-            this.textBox2.TabIndex = 9;
-            // 
-            // lbEstadoCivil
-            // 
-            this.lbEstadoCivil.AutoSize = true;
-            this.lbEstadoCivil.Font = new System.Drawing.Font("Arial Rounded MT Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEstadoCivil.Location = new System.Drawing.Point(42, 209);
-            this.lbEstadoCivil.Name = "lbEstadoCivil";
-            this.lbEstadoCivil.Size = new System.Drawing.Size(107, 15);
-            this.lbEstadoCivil.TabIndex = 10;
-            this.lbEstadoCivil.Text = "ESTADO CIVIL :";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(171, 207);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(181, 21);
-            this.comboBox1.TabIndex = 11;
+            this.gbAltaEmpleado.Text = "DATOS PERSONALES";
             // 
             // AltaEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1027, 428);
+            this.ClientSize = new System.Drawing.Size(1370, 428);
             this.Controls.Add(this.btCancelar);
             this.Controls.Add(this.btAceptar);
             this.Controls.Add(this.gbAltaEmpleado);
@@ -338,20 +355,22 @@
         private System.Windows.Forms.ToolStripMenuItem limpiarDatosToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.Label lbAltaEmpleado;
-        private System.Windows.Forms.GroupBox gbAltaEmpleado;
         private System.Windows.Forms.Button btAceptar;
         private System.Windows.Forms.Button btCancelar;
-        private System.Windows.Forms.Label lbApellido2;
-        private System.Windows.Forms.Label lbApellido1;
         private System.Windows.Forms.Label lbNombre;
-        private System.Windows.Forms.TextBox txtApellido2;
-        private System.Windows.Forms.TextBox txtApellido1;
+        private System.Windows.Forms.Label lbApellido1;
+        private System.Windows.Forms.Label lbApellido2;
         private System.Windows.Forms.TextBox txtNombre;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label lbEstadoCivil;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label lbSegSocial;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtApellido1;
+        private System.Windows.Forms.TextBox txtApellido2;
         private System.Windows.Forms.Label lbDni;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label lbSegSocial;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label lbEstadoCivil;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.GroupBox gbAltaEmpleado;
     }
 }
