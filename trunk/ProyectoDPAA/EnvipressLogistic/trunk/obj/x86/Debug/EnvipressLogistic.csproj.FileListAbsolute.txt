@@ -25,3 +25,4 @@ C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\bin\De
 C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.Properties.Resources.resources
 C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.exe
 C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\Proyecto DPAA\ProyectoDPAA\EnvipressLogistic\trunk\obj\x86\Debug\EnvipressLogistic.DetallePedido.resources
