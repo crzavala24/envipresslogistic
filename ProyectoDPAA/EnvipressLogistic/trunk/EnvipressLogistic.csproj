@@ -149,11 +149,23 @@
     <Compile Include="Horarios.Designer.cs">
       <DependentUpon>Horarios.cs</DependentUpon>
     </Compile>
+    <Compile Include="Incidencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Incidencias.designer.cs">
+      <DependentUpon>Incidencias.cs</DependentUpon>
+    </Compile>
     <Compile Include="IncidenciasAnteriores.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IncidenciasAnteriores.designer.cs">
       <DependentUpon>IncidenciasAnteriores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListadoFlota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListadoFlota.designer.cs">
+      <DependentUpon>ListadoFlota.cs</DependentUpon>
     </Compile>
     <Compile Include="MDIPruebaMenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -223,8 +235,14 @@
     <EmbeddedResource Include="Horarios.resx">
       <DependentUpon>Horarios.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Incidencias.resx">
+      <DependentUpon>Incidencias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="IncidenciasAnteriores.resx">
       <DependentUpon>IncidenciasAnteriores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListadoFlota.resx">
+      <DependentUpon>ListadoFlota.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MDIPruebaMenuPrincipal.resx">
       <DependentUpon>MDIPruebaMenuPrincipal.cs</DependentUpon>
