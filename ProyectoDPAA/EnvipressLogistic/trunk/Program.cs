@@ -15,7 +15,7 @@ namespace EnvipressLogistic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new GestionPersonal());
+            Application.Run(new CAModificar_Reserva());
         }
     }
 }
