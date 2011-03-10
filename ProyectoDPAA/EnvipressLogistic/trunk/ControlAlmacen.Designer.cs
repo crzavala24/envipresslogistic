@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlAlmacen));
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.insertarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -43,10 +44,11 @@
             this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStripMenuItem1
@@ -56,33 +58,34 @@
             this.modificarReservaToolStripMenuItem,
             this.borrarReservaToolStripMenuItem,
             this.salirToolStripMenuItem});
+            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(60, 20);
-            this.toolStripMenuItem1.Text = "Archivo";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(73, 20);
+            this.toolStripMenuItem1.Text = "Movimiento";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
             // insertarReservaToolStripMenuItem
             // 
             this.insertarReservaToolStripMenuItem.Name = "insertarReservaToolStripMenuItem";
-            this.insertarReservaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.insertarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.insertarReservaToolStripMenuItem.Text = "Insertar Reserva";
             // 
             // modificarReservaToolStripMenuItem
             // 
             this.modificarReservaToolStripMenuItem.Name = "modificarReservaToolStripMenuItem";
-            this.modificarReservaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.modificarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.modificarReservaToolStripMenuItem.Text = "Modificar Reserva";
             // 
             // borrarReservaToolStripMenuItem
             // 
             this.borrarReservaToolStripMenuItem.Name = "borrarReservaToolStripMenuItem";
-            this.borrarReservaToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.borrarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.borrarReservaToolStripMenuItem.Text = "Borrar Reserva";
             // 
             // salirToolStripMenuItem
             // 
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.salirToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
             this.salirToolStripMenuItem.Text = "Salir";
             this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
@@ -91,21 +94,22 @@
             this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.reservasToolStripMenuItem,
             this.almacenesToolStripMenuItem});
+            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(36, 20);
-            this.toolStripMenuItem2.Text = "Ver";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(54, 20);
+            this.toolStripMenuItem2.Text = "Control";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
             // 
             // reservasToolStripMenuItem
             // 
             this.reservasToolStripMenuItem.Name = "reservasToolStripMenuItem";
-            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.reservasToolStripMenuItem.Text = "Reservas";
             // 
             // almacenesToolStripMenuItem
             // 
             this.almacenesToolStripMenuItem.Name = "almacenesToolStripMenuItem";
-            this.almacenesToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.almacenesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.almacenesToolStripMenuItem.Text = "Almacenes";
             // 
             // toolStripMenuItem3
@@ -113,21 +117,22 @@
             this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.buscarReservaToolStripMenuItem,
             this.buscarAlmacenToolStripMenuItem});
+            this.toolStripMenuItem3.ForeColor = System.Drawing.Color.Black;
             this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(54, 20);
+            this.toolStripMenuItem3.Size = new System.Drawing.Size(51, 20);
             this.toolStripMenuItem3.Text = "Buscar";
             this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
             // 
             // buscarReservaToolStripMenuItem
             // 
             this.buscarReservaToolStripMenuItem.Name = "buscarReservaToolStripMenuItem";
-            this.buscarReservaToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.buscarReservaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.buscarReservaToolStripMenuItem.Text = "Buscar Reserva";
             // 
             // buscarAlmacenToolStripMenuItem
             // 
             this.buscarAlmacenToolStripMenuItem.Name = "buscarAlmacenToolStripMenuItem";
-            this.buscarAlmacenToolStripMenuItem.Size = new System.Drawing.Size(159, 22);
+            this.buscarAlmacenToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
             this.buscarAlmacenToolStripMenuItem.Text = "Buscar Almacen";
             // 
             // menuStrip1
@@ -139,7 +144,7 @@
             this.ayudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(752, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(638, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -147,34 +152,28 @@
             // 
             this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.acercaDeToolStripMenuItem});
+            this.ayudaToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.ayudaToolStripMenuItem.Text = "Ayuda";
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 41);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Arial", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(85, 54);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(134, 13);
+            this.label1.Size = new System.Drawing.Size(464, 44);
             this.label1.TabIndex = 4;
-            this.label1.Text = "ULTIMOS MOVIMIENTOS";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(598, 398);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(122, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Refrescar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.label1.Text = "CONTROL DE ALMACEN";
             // 
             // dataGridView1
             // 
@@ -188,17 +187,27 @@
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(93, 101);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(445, 319);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // ControlAlmacen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(752, 432);
+            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(638, 447);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
-            this.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ForeColor = System.Drawing.Color.Yellow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ControlAlmacen";
@@ -208,6 +217,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -230,8 +240,8 @@
         private System.Windows.Forms.ToolStripMenuItem almacenesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem buscarAlmacenToolStripMenuItem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox1;
 
     }
 }
