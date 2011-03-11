@@ -125,6 +125,12 @@
     <Compile Include="BuscarEmpleados.Designer.cs">
       <DependentUpon>BuscarEmpleados.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetalleEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetalleEmpleado.Designer.cs">
+      <DependentUpon>DetalleEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="DetallePedido.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -240,6 +246,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="BuscarEmpleados.resx">
       <DependentUpon>BuscarEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetalleEmpleado.resx">
+      <DependentUpon>DetalleEmpleado.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DetallePedido.resx">
       <DependentUpon>DetallePedido.cs</DependentUpon>
