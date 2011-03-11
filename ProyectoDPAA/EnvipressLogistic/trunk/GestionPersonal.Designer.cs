@@ -80,7 +80,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.Archivo,
             this.Consultar,
@@ -116,7 +116,7 @@
             this.ArchivoNuevoBaja});
             this.ArchivoNuevo.MergeIndex = 0;
             this.ArchivoNuevo.Name = "ArchivoNuevo";
-            this.ArchivoNuevo.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoNuevo.Size = new System.Drawing.Size(144, 22);
             this.ArchivoNuevo.Text = "Nuevo";
             // 
             // ArchivoNuevoAlta
@@ -124,58 +124,58 @@
             this.ArchivoNuevoAlta.MergeAction = System.Windows.Forms.MergeAction.Insert;
             this.ArchivoNuevoAlta.MergeIndex = 0;
             this.ArchivoNuevoAlta.Name = "ArchivoNuevoAlta";
-            this.ArchivoNuevoAlta.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoNuevoAlta.Size = new System.Drawing.Size(96, 22);
             this.ArchivoNuevoAlta.Text = "Alta";
             this.ArchivoNuevoAlta.Click += new System.EventHandler(this.ArchivoNuevoAlta_Click);
             // 
             // ArchivoNuevoBaja
             // 
             this.ArchivoNuevoBaja.Name = "ArchivoNuevoBaja";
-            this.ArchivoNuevoBaja.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoNuevoBaja.Size = new System.Drawing.Size(96, 22);
             this.ArchivoNuevoBaja.Text = "Baja";
             this.ArchivoNuevoBaja.Click += new System.EventHandler(this.ArchivoNuevoBaja_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(141, 6);
             // 
             // ArchivoCerrar
             // 
             this.ArchivoCerrar.MergeIndex = 2;
             this.ArchivoCerrar.Name = "ArchivoCerrar";
-            this.ArchivoCerrar.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoCerrar.Size = new System.Drawing.Size(144, 22);
             this.ArchivoCerrar.Text = "Cerrar";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(141, 6);
             // 
             // ArchivoGuardar
             // 
             this.ArchivoGuardar.MergeIndex = 3;
             this.ArchivoGuardar.Name = "ArchivoGuardar";
-            this.ArchivoGuardar.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoGuardar.Size = new System.Drawing.Size(144, 22);
             this.ArchivoGuardar.Text = "Guardar";
             // 
             // ArchivoGuardarTodo
             // 
             this.ArchivoGuardarTodo.MergeIndex = 4;
             this.ArchivoGuardarTodo.Name = "ArchivoGuardarTodo";
-            this.ArchivoGuardarTodo.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoGuardarTodo.Size = new System.Drawing.Size(144, 22);
             this.ArchivoGuardarTodo.Text = "Guardar todo";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(141, 6);
             // 
             // ArchivoSalir
             // 
             this.ArchivoSalir.MergeIndex = 5;
             this.ArchivoSalir.Name = "ArchivoSalir";
-            this.ArchivoSalir.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoSalir.Size = new System.Drawing.Size(144, 22);
             this.ArchivoSalir.Text = "Sallir";
             this.ArchivoSalir.Click += new System.EventHandler(this.ArchivoSalir_Click);
             // 
@@ -194,21 +194,21 @@
             // Horarios
             // 
             this.Horarios.Name = "Horarios";
-            this.Horarios.Size = new System.Drawing.Size(152, 22);
+            this.Horarios.Size = new System.Drawing.Size(132, 22);
             this.Horarios.Text = "Horarios";
             this.Horarios.Click += new System.EventHandler(this.Horarios_Click);
             // 
             // Empleados
             // 
             this.Empleados.Name = "Empleados";
-            this.Empleados.Size = new System.Drawing.Size(152, 22);
+            this.Empleados.Size = new System.Drawing.Size(132, 22);
             this.Empleados.Text = "Empleados";
             this.Empleados.Click += new System.EventHandler(this.Empleados_Click);
             // 
             // Nominas
             // 
             this.Nominas.Name = "Nominas";
-            this.Nominas.Size = new System.Drawing.Size(152, 22);
+            this.Nominas.Size = new System.Drawing.Size(132, 22);
             this.Nominas.Text = "Nominas";
             this.Nominas.Click += new System.EventHandler(this.Nominas_Click);
             // 
@@ -227,21 +227,21 @@
             // Horizontal
             // 
             this.Horizontal.Name = "Horizontal";
-            this.Horizontal.Size = new System.Drawing.Size(152, 22);
+            this.Horizontal.Size = new System.Drawing.Size(129, 22);
             this.Horizontal.Text = "Horizontal";
             this.Horizontal.Click += new System.EventHandler(this.Horizontal_Click);
             // 
             // Vertical
             // 
             this.Vertical.Name = "Vertical";
-            this.Vertical.Size = new System.Drawing.Size(152, 22);
+            this.Vertical.Size = new System.Drawing.Size(129, 22);
             this.Vertical.Text = "Vertical";
             this.Vertical.Click += new System.EventHandler(this.Vertical_Click);
             // 
             // Cascada
             // 
             this.Cascada.Name = "Cascada";
-            this.Cascada.Size = new System.Drawing.Size(152, 22);
+            this.Cascada.Size = new System.Drawing.Size(129, 22);
             this.Cascada.Text = "Cascada";
             this.Cascada.Click += new System.EventHandler(this.Cascada_Click);
             // 
@@ -258,7 +258,7 @@
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // GestionPersonal

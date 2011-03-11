@@ -1,6 +1,6 @@
 ﻿namespace EnvipressLogistic
 {
-    partial class BajaEmpleado
+    partial class DetalleEmpleado
     {
         /// <summary>
         /// Required designer variable.
@@ -28,16 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BajaEmpleado));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetalleEmpleado));
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.comboBox10 = new System.Windows.Forms.ComboBox();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.comboBox11 = new System.Windows.Forms.ComboBox();
-            this.comboBox12 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker5 = new System.Windows.Forms.DateTimePicker();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.label16 = new System.Windows.Forms.Label();
             this.textBox13 = new System.Windows.Forms.TextBox();
@@ -73,112 +65,26 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label17 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
-            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.groupBox3.SuspendLayout();
+            this.button3 = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox3
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Controls.Add(this.dateTimePicker2);
-            this.groupBox3.Controls.Add(this.label38);
-            this.groupBox3.Controls.Add(this.label39);
-            this.groupBox3.Controls.Add(this.comboBox10);
-            this.groupBox3.Controls.Add(this.label40);
-            this.groupBox3.Controls.Add(this.label41);
-            this.groupBox3.Controls.Add(this.comboBox11);
-            this.groupBox3.Controls.Add(this.comboBox12);
-            this.groupBox3.Controls.Add(this.dateTimePicker5);
-            this.groupBox3.Location = new System.Drawing.Point(23, 268);
+            this.groupBox3.Location = new System.Drawing.Point(12, 257);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(612, 110);
-            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabIndex = 8;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "OTROS";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(345, 28);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(72, 13);
-            this.label38.TabIndex = 16;
-            this.label38.Text = "FECHA ALTA";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(232, 27);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(64, 13);
-            this.label39.TabIndex = 15;
-            this.label39.Text = "DURACIÓN";
-            // 
-            // comboBox10
-            // 
-            this.comboBox10.FormattingEnabled = true;
-            this.comboBox10.Location = new System.Drawing.Point(235, 43);
-            this.comboBox10.Name = "comboBox10";
-            this.comboBox10.Size = new System.Drawing.Size(106, 21);
-            this.comboBox10.TabIndex = 14;
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(133, 27);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(64, 13);
-            this.label40.TabIndex = 13;
-            this.label40.Text = "P. PRUEBA";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(9, 27);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(51, 13);
-            this.label41.TabIndex = 12;
-            this.label41.Text = "PUESTO";
-            // 
-            // comboBox11
-            // 
-            this.comboBox11.FormattingEnabled = true;
-            this.comboBox11.Location = new System.Drawing.Point(136, 43);
-            this.comboBox11.Name = "comboBox11";
-            this.comboBox11.Size = new System.Drawing.Size(93, 21);
-            this.comboBox11.TabIndex = 11;
-            // 
-            // comboBox12
-            // 
-            this.comboBox12.FormattingEnabled = true;
-            this.comboBox12.Location = new System.Drawing.Point(9, 43);
-            this.comboBox12.Name = "comboBox12";
-            this.comboBox12.Size = new System.Drawing.Size(121, 21);
-            this.comboBox12.TabIndex = 10;
-            // 
-            // dateTimePicker5
-            // 
-            this.dateTimePicker5.Location = new System.Drawing.Point(348, 44);
-            this.dateTimePicker5.Name = "dateTimePicker5";
-            this.dateTimePicker5.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker5.TabIndex = 9;
             // 
             // groupBox2
             // 
@@ -191,10 +97,10 @@
             this.groupBox2.Controls.Add(this.textBox11);
             this.groupBox2.Controls.Add(this.label13);
             this.groupBox2.Controls.Add(this.textBox10);
-            this.groupBox2.Location = new System.Drawing.Point(23, 191);
+            this.groupBox2.Location = new System.Drawing.Point(12, 180);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(612, 62);
-            this.groupBox2.TabIndex = 4;
+            this.groupBox2.TabIndex = 7;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "DATOS BANCARIOS";
             // 
@@ -290,10 +196,10 @@
             this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(23, 23);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(612, 152);
-            this.groupBox1.TabIndex = 3;
+            this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "DATOS PERSONALES";
             // 
@@ -499,164 +405,73 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "NOMBRE";
             // 
-            // dateTimePicker2
+            // pictureBox1
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(9, 84);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 17;
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(6, 67);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(71, 13);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "FECHA BAJA";
+            this.pictureBox1.Location = new System.Drawing.Point(658, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(290, 215);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
-            this.groupBox4.Controls.Add(this.label20);
-            this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Controls.Add(this.label18);
-            this.groupBox4.Controls.Add(this.dateTimePicker3);
-            this.groupBox4.Controls.Add(this.listBox2);
-            this.groupBox4.Controls.Add(this.listBox1);
-            this.groupBox4.Controls.Add(this.radioButton3);
-            this.groupBox4.Controls.Add(this.radioButton2);
-            this.groupBox4.Controls.Add(this.radioButton1);
-            this.groupBox4.Location = new System.Drawing.Point(671, 23);
+            this.groupBox4.Controls.Add(this.button3);
+            this.groupBox4.Controls.Add(this.button2);
+            this.groupBox4.Controls.Add(this.button1);
+            this.groupBox4.Location = new System.Drawing.Point(658, 257);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(340, 355);
-            this.groupBox4.TabIndex = 6;
+            this.groupBox4.Size = new System.Drawing.Size(290, 110);
+            this.groupBox4.TabIndex = 10;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "REALIZAR BAJA";
+            this.groupBox4.Text = "ACCIONES";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(823, 393);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.Location = new System.Drawing.Point(38, 30);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(93, 23);
+            this.button1.Size = new System.Drawing.Size(67, 59);
             this.button1.TabIndex = 0;
-            this.button1.Text = "CONFIRMAR";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(922, 393);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.Location = new System.Drawing.Point(111, 30);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(89, 23);
+            this.button2.Size = new System.Drawing.Size(67, 59);
             this.button2.TabIndex = 1;
-            this.button2.Text = "CANCELAR";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // radioButton1
+            // button3
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(16, 23);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(84, 17);
-            this.radioButton1.TabIndex = 2;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Baja Médica";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
+            this.button3.Location = new System.Drawing.Point(184, 30);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(67, 59);
+            this.button3.TabIndex = 2;
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(106, 23);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(64, 17);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Despido";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(175, 23);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(140, 17);
-            this.radioButton3.TabIndex = 4;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Finalización del Contrato";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(16, 129);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(306, 95);
-            this.listBox1.TabIndex = 5;
-            // 
-            // listBox2
-            // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(16, 245);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(306, 95);
-            this.listBox2.TabIndex = 6;
-            // 
-            // dateTimePicker3
-            // 
-            this.dateTimePicker3.Location = new System.Drawing.Point(16, 82);
-            this.dateTimePicker3.Name = "dateTimePicker3";
-            this.dateTimePicker3.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker3.TabIndex = 25;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(13, 229);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(96, 13);
-            this.label18.TabIndex = 25;
-            this.label18.Text = "Motivo del despido";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(13, 113);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(88, 13);
-            this.label19.TabIndex = 26;
-            this.label19.Text = "Motivo de la baja";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(13, 66);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(120, 13);
-            this.label20.TabIndex = 27;
-            this.label20.Text = "Fecha de Incorporación";
-            // 
-            // BajaEmpleado
+            // DetalleEmpleado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(1023, 428);
+            this.ClientSize = new System.Drawing.Size(973, 387);
             this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Name = "BajaEmpleado";
-            this.Text = "Baja Empleado";
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.Name = "DetalleEmpleado";
+            this.Text = "DetalleEmpleado";
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -664,16 +479,6 @@
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.ComboBox comboBox10;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.ComboBox comboBox11;
-        private System.Windows.Forms.ComboBox comboBox12;
-        private System.Windows.Forms.DateTimePicker dateTimePicker5;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox textBox13;
@@ -709,17 +514,10 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.DateTimePicker dateTimePicker3;
-        private System.Windows.Forms.ListBox listBox2;
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.RadioButton radioButton2;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
