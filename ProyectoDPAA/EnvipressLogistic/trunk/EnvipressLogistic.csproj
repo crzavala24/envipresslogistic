@@ -119,11 +119,11 @@
     <Compile Include="ControlAlmacen.Designer.cs">
       <DependentUpon>ControlAlmacen.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatosEmpleados.cs">
+    <Compile Include="BuscarEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatosEmpleados.Designer.cs">
-      <DependentUpon>DatosEmpleados.cs</DependentUpon>
+    <Compile Include="BuscarEmpleados.Designer.cs">
+      <DependentUpon>BuscarEmpleados.cs</DependentUpon>
     </Compile>
     <Compile Include="DetallePedido.cs">
       <SubType>Form</SubType>
@@ -238,8 +238,8 @@
     <EmbeddedResource Include="ControlAlmacen.resx">
       <DependentUpon>ControlAlmacen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatosEmpleados.resx">
-      <DependentUpon>DatosEmpleados.cs</DependentUpon>
+    <EmbeddedResource Include="BuscarEmpleados.resx">
+      <DependentUpon>BuscarEmpleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="DetallePedido.resx">
       <DependentUpon>DetallePedido.cs</DependentUpon>
