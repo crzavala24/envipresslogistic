@@ -83,7 +83,7 @@ namespace EnvipressLogistic
                     return;
                 }
             }
-            DatosEmpleados formHijo = new DatosEmpleados();
+            BuscarEmpleados formHijo = new BuscarEmpleados();
             formHijo.MdiParent = this;
             formHijo.WindowState = FormWindowState.Maximized;
             formHijo.Show();
