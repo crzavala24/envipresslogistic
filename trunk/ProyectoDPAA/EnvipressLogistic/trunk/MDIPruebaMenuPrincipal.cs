@@ -102,5 +102,11 @@ namespace EnvipressLogistic
                 childForm.Close();
             }
         }
+
+        private void facturaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_FacturacionPadre frmhijo = new Form_FacturacionPadre();
+            frmhijo.Show();
+        }
     }
 }
