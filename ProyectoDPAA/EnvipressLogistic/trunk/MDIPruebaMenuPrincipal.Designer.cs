@@ -82,6 +82,7 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.facturaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -315,7 +316,8 @@
             // toolsMenu
             // 
             this.toolsMenu.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.optionsToolStripMenuItem});
+            this.optionsToolStripMenuItem,
+            this.facturaciónToolStripMenuItem});
             this.toolsMenu.Name = "toolsMenu";
             this.toolsMenu.Size = new System.Drawing.Size(83, 20);
             this.toolsMenu.Text = "&Herramientas";
@@ -323,7 +325,7 @@
             // optionsToolStripMenuItem
             // 
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.optionsToolStripMenuItem.Text = "&Opciones";
             // 
             // windowsMenu
@@ -526,6 +528,13 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(40, 17);
             this.toolStripStatusLabel.Text = "Estado";
             // 
+            // facturaciónToolStripMenuItem
+            // 
+            this.facturaciónToolStripMenuItem.Name = "facturaciónToolStripMenuItem";
+            this.facturaciónToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.facturaciónToolStripMenuItem.Text = "Facturación";
+            this.facturaciónToolStripMenuItem.Click += new System.EventHandler(this.facturaciónToolStripMenuItem_Click);
+            // 
             // MDIPruebaMenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -539,6 +548,7 @@
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MDIPruebaMenuPrincipal";
             this.Text = "MDIParent1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             this.toolStrip.ResumeLayout(false);
@@ -604,6 +614,7 @@
         private System.Windows.Forms.ToolStripButton printPreviewToolStripButton;
         private System.Windows.Forms.ToolStripButton helpToolStripButton;
         private System.Windows.Forms.ToolTip toolTip;
+        private System.Windows.Forms.ToolStripMenuItem facturaciónToolStripMenuItem;
     }
 }
 
