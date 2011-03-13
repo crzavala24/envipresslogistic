@@ -15,5 +15,16 @@ namespace EnvipressLogistic
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e) // editar un resultado
+        {
+            Form_Facturacion resultado = new Form_Facturacion();
+            resultado.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
