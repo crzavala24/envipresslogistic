@@ -143,6 +143,12 @@
     <Compile Include="Flota.designer.cs">
       <DependentUpon>Flota.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form_FacturacionPadre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_FacturacionPadre.Designer.cs">
+      <DependentUpon>Form_FacturacionPadre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form_BuscarFacturaResultados.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -160,6 +166,12 @@
     </Compile>
     <Compile Include="Form_Facturacion.Designer.cs">
       <DependentUpon>Form_Facturacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_FacturaNueva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_FacturaNueva.Designer.cs">
+      <DependentUpon>Form_FacturaNueva.cs</DependentUpon>
     </Compile>
     <Compile Include="GestionPersonal.cs">
       <SubType>Form</SubType>
@@ -264,6 +276,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_Facturacion.resx">
       <DependentUpon>Form_Facturacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_FacturacionPadre.resx">
+      <DependentUpon>Form_FacturacionPadre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_FacturaNueva.resx">
+      <DependentUpon>Form_FacturaNueva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GestionPersonal.resx">
       <DependentUpon>GestionPersonal.cs</DependentUpon>
