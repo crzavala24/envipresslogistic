@@ -15,5 +15,11 @@ namespace EnvipressLogistic
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form_BuscarFacturaResultados resultados = new Form_BuscarFacturaResultados();
+            resultados.Show();
+        }
     }
 }
