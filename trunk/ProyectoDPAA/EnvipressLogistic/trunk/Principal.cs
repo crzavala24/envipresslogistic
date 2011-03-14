@@ -15,5 +15,22 @@ namespace EnvipressLogistic
         {
             InitializeComponent();
         }
+
+        private void btAceptar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text == "envipress" && txtContraseña.Text == "123456")
+            {
+                Indice index = new Indice();
+                index.WindowState = FormWindowState.Normal;
+                index.Show();
+            }
+            else
+                MessageBox.Show("Usuario o Contraseña Incorrecto", "", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+        }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
