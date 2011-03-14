@@ -108,6 +108,7 @@
             this.Archivo.Name = "Archivo";
             this.Archivo.Size = new System.Drawing.Size(60, 20);
             this.Archivo.Text = "Archivo";
+            this.Archivo.Click += new System.EventHandler(this.Archivo_Click);
             // 
             // ArchivoNuevo
             // 
@@ -116,7 +117,7 @@
             this.ArchivoNuevoBaja});
             this.ArchivoNuevo.MergeIndex = 0;
             this.ArchivoNuevo.Name = "ArchivoNuevo";
-            this.ArchivoNuevo.Size = new System.Drawing.Size(144, 22);
+            this.ArchivoNuevo.Size = new System.Drawing.Size(152, 22);
             this.ArchivoNuevo.Text = "Nuevo";
             // 
             // ArchivoNuevoAlta
@@ -138,44 +139,44 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(141, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
             // 
             // ArchivoCerrar
             // 
             this.ArchivoCerrar.MergeIndex = 2;
             this.ArchivoCerrar.Name = "ArchivoCerrar";
-            this.ArchivoCerrar.Size = new System.Drawing.Size(144, 22);
+            this.ArchivoCerrar.Size = new System.Drawing.Size(152, 22);
             this.ArchivoCerrar.Text = "Cerrar";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(141, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
             // 
             // ArchivoGuardar
             // 
             this.ArchivoGuardar.MergeIndex = 3;
             this.ArchivoGuardar.Name = "ArchivoGuardar";
-            this.ArchivoGuardar.Size = new System.Drawing.Size(144, 22);
+            this.ArchivoGuardar.Size = new System.Drawing.Size(152, 22);
             this.ArchivoGuardar.Text = "Guardar";
             // 
             // ArchivoGuardarTodo
             // 
             this.ArchivoGuardarTodo.MergeIndex = 4;
             this.ArchivoGuardarTodo.Name = "ArchivoGuardarTodo";
-            this.ArchivoGuardarTodo.Size = new System.Drawing.Size(144, 22);
+            this.ArchivoGuardarTodo.Size = new System.Drawing.Size(152, 22);
             this.ArchivoGuardarTodo.Text = "Guardar todo";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(141, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
             // 
             // ArchivoSalir
             // 
             this.ArchivoSalir.MergeIndex = 5;
             this.ArchivoSalir.Name = "ArchivoSalir";
-            this.ArchivoSalir.Size = new System.Drawing.Size(144, 22);
+            this.ArchivoSalir.Size = new System.Drawing.Size(152, 22);
             this.ArchivoSalir.Text = "Sallir";
             this.ArchivoSalir.Click += new System.EventHandler(this.ArchivoSalir_Click);
             // 

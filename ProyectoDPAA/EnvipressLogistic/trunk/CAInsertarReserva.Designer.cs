@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CAInsertar_Reserva));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btInsertar = new System.Windows.Forms.Button();
+            this.btBorrar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,37 +39,37 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btVolver = new System.Windows.Forms.Button();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button1
+            // btInsertar
             // 
-            this.button1.Location = new System.Drawing.Point(360, 321);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Insertar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btInsertar.Location = new System.Drawing.Point(360, 321);
+            this.btInsertar.Name = "btInsertar";
+            this.btInsertar.Size = new System.Drawing.Size(75, 23);
+            this.btInsertar.TabIndex = 0;
+            this.btInsertar.Text = "Insertar";
+            this.btInsertar.UseVisualStyleBackColor = true;
+            this.btInsertar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btBorrar
             // 
-            this.button2.Location = new System.Drawing.Point(480, 321);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Borrar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btBorrar.Location = new System.Drawing.Point(480, 321);
+            this.btBorrar.Name = "btBorrar";
+            this.btBorrar.Size = new System.Drawing.Size(75, 23);
+            this.btBorrar.TabIndex = 1;
+            this.btBorrar.Text = "Borrar";
+            this.btBorrar.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
@@ -137,14 +137,15 @@
             this.label4.TabIndex = 9;
             this.label4.Text = "Volumen Aproximado";
             // 
-            // button3
+            // btVolver
             // 
-            this.button3.Location = new System.Drawing.Point(599, 321);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Volver";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btVolver.Location = new System.Drawing.Point(599, 321);
+            this.btVolver.Name = "btVolver";
+            this.btVolver.Size = new System.Drawing.Size(75, 23);
+            this.btVolver.TabIndex = 10;
+            this.btVolver.Text = "Volver";
+            this.btVolver.UseVisualStyleBackColor = true;
+            this.btVolver.Click += new System.EventHandler(this.btVolver_Click);
             // 
             // textBox5
             // 
@@ -187,6 +188,34 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Insertar Reserva";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(104, 278);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(83, 13);
+            this.label7.TabIndex = 16;
+            this.label7.Text = "Tipo de Material";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Duros",
+            "Blandos",
+            "Liquidos",
+            "Recipientes Gaseosos",
+            "Peligrosos",
+            "Muy Peligrosos",
+            "Explosivos",
+            "Irritantes",
+            "Bacteriologicos",
+            "Quimicos"});
+            this.comboBox1.Location = new System.Drawing.Point(209, 275);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(100, 21);
+            this.comboBox1.TabIndex = 15;
+            // 
             // label6
             // 
             this.label6.AutoSize = true;
@@ -212,34 +241,6 @@
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            "Duros",
-            "Blandos",
-            "Liquidos",
-            "Recipientes Gaseosos",
-            "Peligrosos",
-            "Muy Peligrosos",
-            "Explosivos",
-            "Irritantes",
-            "Bacteriologicos",
-            "Quimicos"});
-            this.comboBox1.Location = new System.Drawing.Point(209, 275);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(100, 21);
-            this.comboBox1.TabIndex = 15;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(104, 278);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Tipo de Material";
-            // 
             // CAInsertar_Reserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -247,9 +248,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(687, 369);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btVolver);
+            this.Controls.Add(this.btBorrar);
+            this.Controls.Add(this.btInsertar);
             this.Controls.Add(this.groupBox1);
             this.Name = "CAInsertar_Reserva";
             this.Text = "Insertar Reserva";
@@ -262,8 +263,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btInsertar;
+        private System.Windows.Forms.Button btBorrar;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
@@ -272,7 +273,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btVolver;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.GroupBox groupBox1;

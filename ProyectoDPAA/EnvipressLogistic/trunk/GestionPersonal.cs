@@ -120,5 +120,10 @@ namespace EnvipressLogistic
             formHijo.WindowState = FormWindowState.Maximized;
             formHijo.Show();
         }
+
+        private void Archivo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
