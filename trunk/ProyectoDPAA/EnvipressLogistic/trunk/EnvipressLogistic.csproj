@@ -197,6 +197,12 @@
     <Compile Include="IncidenciasAnteriores.designer.cs">
       <DependentUpon>IncidenciasAnteriores.cs</DependentUpon>
     </Compile>
+    <Compile Include="Indice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indice.designer.cs">
+      <DependentUpon>Indice.cs</DependentUpon>
+    </Compile>
     <Compile Include="ListadoFlota.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -220,6 +226,12 @@
     </Compile>
     <Compile Include="PerfilCliente.Designer.cs">
       <DependentUpon>PerfilCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -295,6 +307,9 @@
     <EmbeddedResource Include="IncidenciasAnteriores.resx">
       <DependentUpon>IncidenciasAnteriores.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Indice.resx">
+      <DependentUpon>Indice.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListadoFlota.resx">
       <DependentUpon>ListadoFlota.cs</DependentUpon>
     </EmbeddedResource>
@@ -306,6 +321,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PerfilCliente.resx">
       <DependentUpon>PerfilCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
