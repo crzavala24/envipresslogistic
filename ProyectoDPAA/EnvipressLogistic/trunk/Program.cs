@@ -15,7 +15,7 @@ namespace EnvipressLogistic
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_FacturacionPadre());
+            Application.Run(new Principal());
         }
     }
 }
