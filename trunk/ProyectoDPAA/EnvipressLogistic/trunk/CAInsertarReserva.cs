@@ -30,5 +30,10 @@ namespace EnvipressLogistic
         {
 
         }
+
+        private void btVolver_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -29,19 +29,19 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ControlAlmacen));
-            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.insertarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.borrarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.reservasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.almacenesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarReservaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarAlmacenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Movimiento = new System.Windows.Forms.ToolStripMenuItem();
+            this.MovimientoInsertarReserva = new System.Windows.Forms.ToolStripMenuItem();
+            this.MovimientoModificarReserva = new System.Windows.Forms.ToolStripMenuItem();
+            this.MovimientoBorrarReserva = new System.Windows.Forms.ToolStripMenuItem();
+            this.MovimientoSalir = new System.Windows.Forms.ToolStripMenuItem();
+            this.Control = new System.Windows.Forms.ToolStripMenuItem();
+            this.ControlReservas = new System.Windows.Forms.ToolStripMenuItem();
+            this.ControlAlmacenes = new System.Windows.Forms.ToolStripMenuItem();
+            this.Buscar = new System.Windows.Forms.ToolStripMenuItem();
+            this.BuscarReserva = new System.Windows.Forms.ToolStripMenuItem();
+            this.BuscarAlmacen = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.ayudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Ayuda = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -51,116 +51,120 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // toolStripMenuItem1
+            // Movimiento
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.insertarReservaToolStripMenuItem,
-            this.modificarReservaToolStripMenuItem,
-            this.borrarReservaToolStripMenuItem,
-            this.salirToolStripMenuItem});
-            this.toolStripMenuItem1.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(73, 20);
-            this.toolStripMenuItem1.Text = "Movimiento";
-            this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
+            this.Movimiento.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MovimientoInsertarReserva,
+            this.MovimientoModificarReserva,
+            this.MovimientoBorrarReserva,
+            this.MovimientoSalir});
+            this.Movimiento.ForeColor = System.Drawing.Color.Black;
+            this.Movimiento.Name = "Movimiento";
+            this.Movimiento.Size = new System.Drawing.Size(84, 20);
+            this.Movimiento.Text = "Movimiento";
             // 
-            // insertarReservaToolStripMenuItem
+            // MovimientoInsertarReserva
             // 
-            this.insertarReservaToolStripMenuItem.Name = "insertarReservaToolStripMenuItem";
-            this.insertarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.insertarReservaToolStripMenuItem.Text = "Insertar Reserva";
+            this.MovimientoInsertarReserva.Name = "MovimientoInsertarReserva";
+            this.MovimientoInsertarReserva.Size = new System.Drawing.Size(168, 22);
+            this.MovimientoInsertarReserva.Text = "Insertar Reserva";
+            this.MovimientoInsertarReserva.Click += new System.EventHandler(this.MovimientoInsertarReserva_Click);
             // 
-            // modificarReservaToolStripMenuItem
+            // MovimientoModificarReserva
             // 
-            this.modificarReservaToolStripMenuItem.Name = "modificarReservaToolStripMenuItem";
-            this.modificarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.modificarReservaToolStripMenuItem.Text = "Modificar Reserva";
+            this.MovimientoModificarReserva.Name = "MovimientoModificarReserva";
+            this.MovimientoModificarReserva.Size = new System.Drawing.Size(168, 22);
+            this.MovimientoModificarReserva.Text = "Modificar Reserva";
+            this.MovimientoModificarReserva.Click += new System.EventHandler(this.MovimientoModificarReserva_Click);
             // 
-            // borrarReservaToolStripMenuItem
+            // MovimientoBorrarReserva
             // 
-            this.borrarReservaToolStripMenuItem.Name = "borrarReservaToolStripMenuItem";
-            this.borrarReservaToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.borrarReservaToolStripMenuItem.Text = "Borrar Reserva";
+            this.MovimientoBorrarReserva.Name = "MovimientoBorrarReserva";
+            this.MovimientoBorrarReserva.Size = new System.Drawing.Size(168, 22);
+            this.MovimientoBorrarReserva.Text = "Borrar Reserva";
+            this.MovimientoBorrarReserva.Click += new System.EventHandler(this.MovimientoBorrarReserva_Click);
             // 
-            // salirToolStripMenuItem
+            // MovimientoSalir
             // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(171, 22);
-            this.salirToolStripMenuItem.Text = "Salir";
-            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
+            this.MovimientoSalir.Name = "MovimientoSalir";
+            this.MovimientoSalir.Size = new System.Drawing.Size(168, 22);
+            this.MovimientoSalir.Text = "Salir";
+            this.MovimientoSalir.Click += new System.EventHandler(this.MovimientoSalir_Click);
             // 
-            // toolStripMenuItem2
+            // Control
             // 
-            this.toolStripMenuItem2.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.reservasToolStripMenuItem,
-            this.almacenesToolStripMenuItem});
-            this.toolStripMenuItem2.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(54, 20);
-            this.toolStripMenuItem2.Text = "Control";
-            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            this.Control.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ControlReservas,
+            this.ControlAlmacenes});
+            this.Control.ForeColor = System.Drawing.Color.Black;
+            this.Control.Name = "Control";
+            this.Control.Size = new System.Drawing.Size(59, 20);
+            this.Control.Text = "Control";
             // 
-            // reservasToolStripMenuItem
+            // ControlReservas
             // 
-            this.reservasToolStripMenuItem.Name = "reservasToolStripMenuItem";
-            this.reservasToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.reservasToolStripMenuItem.Text = "Reservas";
+            this.ControlReservas.Name = "ControlReservas";
+            this.ControlReservas.Size = new System.Drawing.Size(152, 22);
+            this.ControlReservas.Text = "Reservas";
+            this.ControlReservas.Click += new System.EventHandler(this.ControlReservas_Click);
             // 
-            // almacenesToolStripMenuItem
+            // ControlAlmacenes
             // 
-            this.almacenesToolStripMenuItem.Name = "almacenesToolStripMenuItem";
-            this.almacenesToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
-            this.almacenesToolStripMenuItem.Text = "Almacenes";
+            this.ControlAlmacenes.Name = "ControlAlmacenes";
+            this.ControlAlmacenes.Size = new System.Drawing.Size(152, 22);
+            this.ControlAlmacenes.Text = "Almacenes";
+            this.ControlAlmacenes.Click += new System.EventHandler(this.ControlAlmacenes_Click);
             // 
-            // toolStripMenuItem3
+            // Buscar
             // 
-            this.toolStripMenuItem3.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.buscarReservaToolStripMenuItem,
-            this.buscarAlmacenToolStripMenuItem});
-            this.toolStripMenuItem3.ForeColor = System.Drawing.Color.Black;
-            this.toolStripMenuItem3.Name = "toolStripMenuItem3";
-            this.toolStripMenuItem3.Size = new System.Drawing.Size(51, 20);
-            this.toolStripMenuItem3.Text = "Buscar";
-            this.toolStripMenuItem3.Click += new System.EventHandler(this.toolStripMenuItem3_Click);
+            this.Buscar.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.BuscarReserva,
+            this.BuscarAlmacen});
+            this.Buscar.ForeColor = System.Drawing.Color.Black;
+            this.Buscar.Name = "Buscar";
+            this.Buscar.Size = new System.Drawing.Size(54, 20);
+            this.Buscar.Text = "Buscar";
             // 
-            // buscarReservaToolStripMenuItem
+            // BuscarReserva
             // 
-            this.buscarReservaToolStripMenuItem.Name = "buscarReservaToolStripMenuItem";
-            this.buscarReservaToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.buscarReservaToolStripMenuItem.Text = "Buscar Reserva";
+            this.BuscarReserva.Name = "BuscarReserva";
+            this.BuscarReserva.Size = new System.Drawing.Size(159, 22);
+            this.BuscarReserva.Text = "Buscar Reserva";
+            this.BuscarReserva.Click += new System.EventHandler(this.BuscarReserva_Click);
             // 
-            // buscarAlmacenToolStripMenuItem
+            // BuscarAlmacen
             // 
-            this.buscarAlmacenToolStripMenuItem.Name = "buscarAlmacenToolStripMenuItem";
-            this.buscarAlmacenToolStripMenuItem.Size = new System.Drawing.Size(160, 22);
-            this.buscarAlmacenToolStripMenuItem.Text = "Buscar Almacen";
+            this.BuscarAlmacen.Name = "BuscarAlmacen";
+            this.BuscarAlmacen.Size = new System.Drawing.Size(159, 22);
+            this.BuscarAlmacen.Text = "Buscar Almacen";
+            this.BuscarAlmacen.Click += new System.EventHandler(this.BuscarAlmacen_Click);
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItem1,
-            this.toolStripMenuItem2,
-            this.toolStripMenuItem3,
-            this.ayudaToolStripMenuItem});
+            this.Movimiento,
+            this.Control,
+            this.Buscar,
+            this.Ayuda});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(638, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
-            // ayudaToolStripMenuItem
+            // Ayuda
             // 
-            this.ayudaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.Ayuda.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.acercaDeToolStripMenuItem});
-            this.ayudaToolStripMenuItem.ForeColor = System.Drawing.Color.Black;
-            this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
-            this.ayudaToolStripMenuItem.Text = "Ayuda";
+            this.Ayuda.ForeColor = System.Drawing.Color.Black;
+            this.Ayuda.Name = "Ayuda";
+            this.Ayuda.Size = new System.Drawing.Size(53, 20);
+            this.Ayuda.Text = "Ayuda";
             // 
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // label1
@@ -171,7 +175,7 @@
             this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(85, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(464, 44);
+            this.label1.Size = new System.Drawing.Size(462, 44);
             this.label1.TabIndex = 4;
             this.label1.Text = "CONTROL DE ALMACEN";
             // 
@@ -185,7 +189,6 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(728, 316);
             this.dataGridView1.TabIndex = 1;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // pictureBox1
             // 
@@ -212,8 +215,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ControlAlmacen";
             this.Text = "Control Almacen";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.ControlAlmacen_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
@@ -225,20 +226,20 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem insertarReservaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem modificarReservaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem borrarReservaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
+        private System.Windows.Forms.ToolStripMenuItem Movimiento;
+        private System.Windows.Forms.ToolStripMenuItem MovimientoInsertarReserva;
+        private System.Windows.Forms.ToolStripMenuItem MovimientoModificarReserva;
+        private System.Windows.Forms.ToolStripMenuItem MovimientoBorrarReserva;
+        private System.Windows.Forms.ToolStripMenuItem Control;
+        private System.Windows.Forms.ToolStripMenuItem Buscar;
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem ayudaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem Ayuda;
         private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buscarReservaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem reservasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem almacenesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buscarAlmacenToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MovimientoSalir;
+        private System.Windows.Forms.ToolStripMenuItem BuscarReserva;
+        private System.Windows.Forms.ToolStripMenuItem ControlReservas;
+        private System.Windows.Forms.ToolStripMenuItem ControlAlmacenes;
+        private System.Windows.Forms.ToolStripMenuItem BuscarAlmacen;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
