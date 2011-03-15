@@ -62,6 +62,8 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -84,6 +86,8 @@
             // tabPage1
             // 
             this.tabPage1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tabPage1.BackgroundImage")));
+            this.tabPage1.Controls.Add(this.button5);
+            this.tabPage1.Controls.Add(this.button4);
             this.tabPage1.Controls.Add(this.textBox9);
             this.tabPage1.Controls.Add(this.textBox8);
             this.tabPage1.Controls.Add(this.textBox7);
@@ -376,6 +380,24 @@
             this.textBox9.Size = new System.Drawing.Size(177, 20);
             this.textBox9.TabIndex = 28;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(405, 394);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 29;
+            this.button4.Text = "Borrar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(313, 394);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 30;
+            this.button5.Text = "Modificar";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // PerfilCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -434,5 +456,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
     }
 }

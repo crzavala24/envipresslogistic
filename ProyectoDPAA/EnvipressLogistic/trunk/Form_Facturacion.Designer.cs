@@ -55,7 +55,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(186, 37);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Facturacion";
+            this.label1.Text = "Facturación";
             // 
             // label2
             // 
@@ -65,7 +65,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 13);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Numero de Factura: ";
+            this.label2.Text = "Número de Factura: ";
             // 
             // label3
             // 
@@ -142,7 +142,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(101, 13);
             this.label5.TabIndex = 8;
-            this.label5.Text = "Numero de cuenta: ";
+            this.label5.Text = "Número de cuenta: ";
             // 
             // textBox2
             // 
@@ -215,7 +215,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form_Facturacion";
-            this.Text = "Facturacion";
+            this.Text = "Facturación";
             this.ResumeLayout(false);
             this.PerformLayout();
 
