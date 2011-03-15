@@ -62,6 +62,7 @@
             this.Movimiento.Name = "Movimiento";
             this.Movimiento.Size = new System.Drawing.Size(84, 20);
             this.Movimiento.Text = "Movimiento";
+            this.Movimiento.Click += new System.EventHandler(this.Movimiento_Click);
             // 
             // MovimientoInsertarReserva
             // 
@@ -104,14 +105,14 @@
             // ControlReservas
             // 
             this.ControlReservas.Name = "ControlReservas";
-            this.ControlReservas.Size = new System.Drawing.Size(152, 22);
+            this.ControlReservas.Size = new System.Drawing.Size(132, 22);
             this.ControlReservas.Text = "Reservas";
             this.ControlReservas.Click += new System.EventHandler(this.ControlReservas_Click);
             // 
             // ControlAlmacenes
             // 
             this.ControlAlmacenes.Name = "ControlAlmacenes";
-            this.ControlAlmacenes.Size = new System.Drawing.Size(152, 22);
+            this.ControlAlmacenes.Size = new System.Drawing.Size(132, 22);
             this.ControlAlmacenes.Text = "Almacenes";
             this.ControlAlmacenes.Click += new System.EventHandler(this.ControlAlmacenes_Click);
             // 
@@ -164,7 +165,7 @@
             // acercaDeToolStripMenuItem
             // 
             this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
-            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
             // label1

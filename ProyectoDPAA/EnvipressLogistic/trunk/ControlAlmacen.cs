@@ -72,5 +72,10 @@ namespace EnvipressLogistic
             buscarAlmacen.WindowState = FormWindowState.Normal;
             buscarAlmacen.Show();
         }
+
+        private void Movimiento_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
