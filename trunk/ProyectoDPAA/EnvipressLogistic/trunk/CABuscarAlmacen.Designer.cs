@@ -133,9 +133,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(85, 73);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(27, 13);
+            this.label3.Size = new System.Drawing.Size(29, 13);
             this.label3.TabIndex = 4;
-            this.label3.Text = "Pais";
+            this.label3.Text = "País";
             // 
             // label2
             // 
@@ -159,7 +159,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(88, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Nombre Almacen";
+            this.label1.Text = "Nombre Almacén";
             // 
             // textBox1
             // 
@@ -170,7 +170,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 259);
             this.dataGridView1.Name = "dataGridView1";
@@ -199,7 +199,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "CABuscarAlmacen";
-            this.Text = "Buscar Almacen";
+            this.Text = "Buscar Almacén";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

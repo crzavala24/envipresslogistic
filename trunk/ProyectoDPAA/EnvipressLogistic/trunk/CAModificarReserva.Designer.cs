@@ -117,7 +117,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(105, 13);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Nombre del Almacen";
+            this.label2.Text = "Nombre del Almacén";
             // 
             // textBox2
             // 
@@ -213,7 +213,7 @@
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(105, 13);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Nombre del Almacen";
+            this.label7.Text = "Nombre del Almacén";
             // 
             // textBox4
             // 

@@ -65,7 +65,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(404, 37);
             this.label2.TabIndex = 16;
-            this.label2.Text = "Resultados de la busqueda";
+            this.label2.Text = "Resultados de la búsqueda";
             // 
             // textBox2
             // 

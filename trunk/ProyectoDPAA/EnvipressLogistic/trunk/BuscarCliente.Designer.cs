@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BuscarCliente));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -48,8 +50,6 @@
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -80,6 +80,24 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Datos Cliente";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(197, 264);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 14;
+            this.button3.Text = "Volver";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(107, 264);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 13;
+            this.button2.Text = "Cancelar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -135,6 +153,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Location = new System.Drawing.Point(94, 222);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(27, 13);
@@ -144,6 +163,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Location = new System.Drawing.Point(86, 186);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(34, 13);
@@ -153,6 +173,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Location = new System.Drawing.Point(76, 149);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
@@ -162,6 +183,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Location = new System.Drawing.Point(32, 107);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 13);
@@ -171,6 +193,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Location = new System.Drawing.Point(45, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 13);
@@ -181,6 +204,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Location = new System.Drawing.Point(75, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(45, 13);
@@ -231,24 +255,6 @@
             this.label7.TabIndex = 3;
             this.label7.Text = "Resultado Búsqueda";
             this.label7.Click += new System.EventHandler(this.label7_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(107, 264);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 13;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(197, 264);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 14;
-            this.button3.Text = "Volver";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // BuscarCliente
             // 

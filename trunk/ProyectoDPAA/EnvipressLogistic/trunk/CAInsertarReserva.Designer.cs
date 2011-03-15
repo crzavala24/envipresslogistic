@@ -223,7 +223,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(103, 13);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Nombre de Almacen";
+            this.label6.Text = "Nombre de Almacén";
             // 
             // textBox6
             // 
