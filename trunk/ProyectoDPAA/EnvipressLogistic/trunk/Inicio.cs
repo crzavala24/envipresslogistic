@@ -96,5 +96,26 @@ namespace EnvipressLogistic
             nForm.WindowState = FormWindowState.Maximized;
             nForm.Show();
         }
+
+        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_FacturaNueva frmhijo = new Form_FacturaNueva();
+            frmhijo.MdiParent = this;
+            frmhijo.Show();
+        }
+
+        private void verFacturasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_Facturacion frmhijo = new Form_Facturacion();
+            frmhijo.MdiParent = this;
+            frmhijo.Show();
+        }
+
+        private void busquedaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form_BuscarFactura frmhijo = new Form_BuscarFactura();
+            frmhijo.MdiParent = this;
+            frmhijo.Show();
+        }
     }
 }
