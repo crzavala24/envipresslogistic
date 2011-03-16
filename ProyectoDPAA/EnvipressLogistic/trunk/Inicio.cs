@@ -37,7 +37,8 @@ namespace EnvipressLogistic
                 btCancelarPrincipal.Visible = false;
                 MenuPrincipal.Visible = true;
                 pboxPrincipal.Visible = true;
-                pnlPrincipal.Visible = true;                
+                pnlPrincipal.Visible = true;
+                this.WindowState = FormWindowState.Maximized;
             }
             else
             {
@@ -50,8 +51,50 @@ namespace EnvipressLogistic
 
         private void btCancelarPrincipal_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("¿Seguro que desea salir?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
+           if (MessageBox.Show("¿Seguro que desea salir?", "", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
                 Close();
+        }
+
+        private void gestionPersonal_Click(object sender, EventArgs e)
+        {
+            GestionPersonal nForm = new GestionPersonal();
+            nForm.WindowState = FormWindowState.Maximized;
+            nForm.Show();
+        }
+
+        private void buscarCliente_Click(object sender, EventArgs e)
+        {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "BuscarCliente")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            BuscarCliente fBuscar = new BuscarCliente();
+            fBuscar.MdiParent = this;
+            fBuscar.WindowState = FormWindowState.Normal;
+            fBuscar.Show();
+        }
+
+        private void Inicio_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            if (MessageBox.Show("¿Seguro que desea salir?", "", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, MessageBoxDefaultButton.Button1) == DialogResult.Cancel)
+                e.Cancel = true;
+        }
+
+        private void salir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void controlAlmacen_Click(object sender, EventArgs e)
+        {
+            ControlAlmacen nForm = new ControlAlmacen();
+            nForm.WindowState = FormWindowState.Maximized;
+            nForm.Show();
         }
     }
 }

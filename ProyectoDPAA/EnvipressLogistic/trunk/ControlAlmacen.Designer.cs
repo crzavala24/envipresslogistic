@@ -46,9 +46,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pnlPrincipal = new System.Windows.Forms.Panel();
+            this.pboxPrincipal = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlPrincipal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).BeginInit();
             this.SuspendLayout();
             // 
             // Movimiento
@@ -200,19 +204,40 @@
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // pnlPrincipal
+            // 
+            this.pnlPrincipal.Controls.Add(this.pboxPrincipal);
+            this.pnlPrincipal.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlPrincipal.Location = new System.Drawing.Point(0, 439);
+            this.pnlPrincipal.Name = "pnlPrincipal";
+            this.pnlPrincipal.Size = new System.Drawing.Size(638, 79);
+            this.pnlPrincipal.TabIndex = 6;
+            // 
+            // pboxPrincipal
+            // 
+            this.pboxPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pboxPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("pboxPrincipal.Image")));
+            this.pboxPrincipal.Location = new System.Drawing.Point(433, 14);
+            this.pboxPrincipal.Name = "pboxPrincipal";
+            this.pboxPrincipal.Size = new System.Drawing.Size(157, 53);
+            this.pboxPrincipal.TabIndex = 0;
+            this.pboxPrincipal.TabStop = false;
+            // 
             // ControlAlmacen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(638, 447);
+            this.ClientSize = new System.Drawing.Size(638, 518);
+            this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.Yellow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ControlAlmacen";
             this.Text = "Control Almacen";
@@ -220,6 +245,8 @@
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.pnlPrincipal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,6 +271,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel pnlPrincipal;
+        private System.Windows.Forms.PictureBox pboxPrincipal;
 
     }
 }

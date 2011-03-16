@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GestionPersonal));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.Archivo = new System.Windows.Forms.ToolStripMenuItem();
             this.ArchivoNuevo = new System.Windows.Forms.ToolStripMenuItem();
@@ -53,30 +51,12 @@
             this.Cascada = new System.Windows.Forms.ToolStripMenuItem();
             this.Ayuda = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pnlPrincipal = new System.Windows.Forms.Panel();
+            this.pboxPrincipal = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
+            this.pnlPrincipal.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).BeginInit();
             this.SuspendLayout();
-            // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 200);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(423, 62);
-            this.panel1.TabIndex = 3;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Location = new System.Drawing.Point(301, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 37);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // menuStrip1
             // 
@@ -117,7 +97,7 @@
             this.ArchivoNuevoBaja});
             this.ArchivoNuevo.MergeIndex = 0;
             this.ArchivoNuevo.Name = "ArchivoNuevo";
-            this.ArchivoNuevo.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoNuevo.Size = new System.Drawing.Size(144, 22);
             this.ArchivoNuevo.Text = "Nuevo";
             // 
             // ArchivoNuevoAlta
@@ -139,44 +119,44 @@
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(141, 6);
             // 
             // ArchivoCerrar
             // 
             this.ArchivoCerrar.MergeIndex = 2;
             this.ArchivoCerrar.Name = "ArchivoCerrar";
-            this.ArchivoCerrar.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoCerrar.Size = new System.Drawing.Size(144, 22);
             this.ArchivoCerrar.Text = "Cerrar";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(141, 6);
             // 
             // ArchivoGuardar
             // 
             this.ArchivoGuardar.MergeIndex = 3;
             this.ArchivoGuardar.Name = "ArchivoGuardar";
-            this.ArchivoGuardar.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoGuardar.Size = new System.Drawing.Size(144, 22);
             this.ArchivoGuardar.Text = "Guardar";
             // 
             // ArchivoGuardarTodo
             // 
             this.ArchivoGuardarTodo.MergeIndex = 4;
             this.ArchivoGuardarTodo.Name = "ArchivoGuardarTodo";
-            this.ArchivoGuardarTodo.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoGuardarTodo.Size = new System.Drawing.Size(144, 22);
             this.ArchivoGuardarTodo.Text = "Guardar todo";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(141, 6);
             // 
             // ArchivoSalir
             // 
             this.ArchivoSalir.MergeIndex = 5;
             this.ArchivoSalir.Name = "ArchivoSalir";
-            this.ArchivoSalir.Size = new System.Drawing.Size(152, 22);
+            this.ArchivoSalir.Size = new System.Drawing.Size(144, 22);
             this.ArchivoSalir.Text = "Sallir";
             this.ArchivoSalir.Click += new System.EventHandler(this.ArchivoSalir_Click);
             // 
@@ -262,22 +242,41 @@
             this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
             this.acercaDeToolStripMenuItem.Text = "Acerca de...";
             // 
+            // pnlPrincipal
+            // 
+            this.pnlPrincipal.Controls.Add(this.pboxPrincipal);
+            this.pnlPrincipal.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pnlPrincipal.Location = new System.Drawing.Point(0, 183);
+            this.pnlPrincipal.Name = "pnlPrincipal";
+            this.pnlPrincipal.Size = new System.Drawing.Size(423, 79);
+            this.pnlPrincipal.TabIndex = 7;
+            // 
+            // pboxPrincipal
+            // 
+            this.pboxPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.pboxPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("pboxPrincipal.Image")));
+            this.pboxPrincipal.Location = new System.Drawing.Point(218, 14);
+            this.pboxPrincipal.Name = "pboxPrincipal";
+            this.pboxPrincipal.Size = new System.Drawing.Size(157, 53);
+            this.pboxPrincipal.TabIndex = 0;
+            this.pboxPrincipal.TabStop = false;
+            // 
             // GestionPersonal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(423, 262);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.menuStrip1);
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "GestionPersonal";
             this.Text = "Gestión de Personal";
-            this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.pnlPrincipal.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -285,8 +284,6 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem Archivo;
         private System.Windows.Forms.ToolStripMenuItem Consultar;
@@ -309,6 +306,8 @@
         private System.Windows.Forms.ToolStripMenuItem ArchivoGuardarTodo;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripMenuItem ArchivoSalir;
+        private System.Windows.Forms.Panel pnlPrincipal;
+        private System.Windows.Forms.PictureBox pboxPrincipal;
 
     }
 }

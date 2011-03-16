@@ -1,6 +1,6 @@
 ﻿namespace EnvipressLogistic
 {
-    partial class CAInsertar_Reserva
+    partial class InsertarReserva
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CAInsertar_Reserva));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InsertarReserva));
             this.btInsertar = new System.Windows.Forms.Button();
             this.btBorrar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -241,7 +241,7 @@
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
             // 
-            // CAInsertar_Reserva
+            // InsertarReserva
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -252,7 +252,7 @@
             this.Controls.Add(this.btBorrar);
             this.Controls.Add(this.btInsertar);
             this.Controls.Add(this.groupBox1);
-            this.Name = "CAInsertar_Reserva";
+            this.Name = "InsertarReserva";
             this.Text = "Insertar Reserva";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
