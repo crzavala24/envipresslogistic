@@ -19,9 +19,21 @@ namespace EnvipressLogistic
 
         private void MovimientoInsertarReserva_Click(object sender, EventArgs e)
         {
-            CAInsertar_Reserva nuevaReserva = new CAInsertar_Reserva();
-            nuevaReserva.WindowState = FormWindowState.Normal;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "InsertarReserva")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            InsertarReserva nuevaReserva = new InsertarReserva();
+            nuevaReserva.MdiParent = this;
+            nuevaReserva.WindowState = FormWindowState.Maximized;
             nuevaReserva.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void MovimientoSalir_Click(object sender, EventArgs e)
@@ -33,44 +45,116 @@ namespace EnvipressLogistic
 
         private void MovimientoModificarReserva_Click(object sender, EventArgs e)
         {
-            CAModificar_Reserva modReserva = new CAModificar_Reserva();
-            modReserva.WindowState = FormWindowState.Normal;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "InsertarReserva")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            InsertarReserva modReserva = new InsertarReserva();
+            modReserva.MdiParent = this;
+            modReserva.WindowState = FormWindowState.Maximized;
             modReserva.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void MovimientoBorrarReserva_Click(object sender, EventArgs e)
         {
-            CABorrar_Reserva borrarReserva = new CABorrar_Reserva();
-            borrarReserva.WindowState = FormWindowState.Normal;
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "InsertarReserva")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            InsertarReserva borrarReserva = new InsertarReserva();
+            borrarReserva.MdiParent = this;
+            borrarReserva.WindowState = FormWindowState.Maximized;
             borrarReserva.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void ControlReservas_Click(object sender, EventArgs e)
         {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "InsertarReserva")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
             CAVerReservas verReserva = new CAVerReservas();
-            verReserva.WindowState = FormWindowState.Normal;
+            verReserva.MdiParent = this;
+            verReserva.WindowState = FormWindowState.Maximized;
             verReserva.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void ControlAlmacenes_Click(object sender, EventArgs e)
         {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "CAVerAlmacen")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
             CAVerAlmacen verAlmacen = new CAVerAlmacen();
-            verAlmacen.WindowState = FormWindowState.Normal;
+            verAlmacen.MdiParent = this;
+            verAlmacen.WindowState = FormWindowState.Maximized;
             verAlmacen.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void BuscarReserva_Click(object sender, EventArgs e)
         {
-            CABuscarReserva buscarAlmacen = new CABuscarReserva();
-            buscarAlmacen.WindowState = FormWindowState.Normal;
-            buscarAlmacen.Show();
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "CABuscarReserva")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
+            CABuscarReserva buscarReserva = new CABuscarReserva();
+            buscarReserva.MdiParent = this;
+            buscarReserva.WindowState = FormWindowState.Maximized;
+            buscarReserva.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void BuscarAlmacen_Click(object sender, EventArgs e)
         {
+            foreach (Form f in this.MdiChildren)
+            {
+                if (f.Name == "CABuscarAlmacen")
+                {
+                    f.Activate();
+                    return;
+                }
+            }
+
             CABuscarAlmacen buscarAlmacen = new CABuscarAlmacen();
-            buscarAlmacen.WindowState = FormWindowState.Normal;
+            buscarAlmacen.MdiParent = this;
+            buscarAlmacen.WindowState = FormWindowState.Maximized;
             buscarAlmacen.Show();
+            pictureBox1.Visible = false;
+            label1.Visible = false;
         }
 
         private void Movimiento_Click(object sender, EventArgs e)

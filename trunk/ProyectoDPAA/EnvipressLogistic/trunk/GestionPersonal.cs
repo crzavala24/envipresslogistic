@@ -18,7 +18,7 @@ namespace EnvipressLogistic
 
         private void GestionPersonal_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void ArchivoNuevoAlta_Click(object sender, EventArgs e)

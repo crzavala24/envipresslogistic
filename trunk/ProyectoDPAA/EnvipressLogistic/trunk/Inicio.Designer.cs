@@ -30,6 +30,16 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inicio));
             this.MenuPrincipal = new System.Windows.Forms.MenuStrip();
+            this.gestiónDePedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturacionPagos = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionClientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.buscarCliente = new System.Windows.Forms.ToolStripMenuItem();
+            this.listarClientes = new System.Windows.Forms.ToolStripMenuItem();
+            this.controlAlmacen = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionPersonal = new System.Windows.Forms.ToolStripMenuItem();
+            this.controlFlota = new System.Windows.Forms.ToolStripMenuItem();
+            this.incidencias = new System.Windows.Forms.ToolStripMenuItem();
+            this.salir = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.pboxPrincipal = new System.Windows.Forms.PictureBox();
             this.btAceptarPrincipal = new System.Windows.Forms.Button();
@@ -39,16 +49,6 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.imgPrincipal = new System.Windows.Forms.PictureBox();
-            this.gestiónDePersonalToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controlDeAlmacénToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.facturaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestiónDeClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.incidenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.gestiónDePedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.controlDeFlotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.salirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.buscarClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.listarClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuPrincipal.SuspendLayout();
             this.pnlPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).BeginInit();
@@ -59,18 +59,85 @@
             // 
             this.MenuPrincipal.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gestiónDePedidosToolStripMenuItem,
-            this.facturaciónToolStripMenuItem,
-            this.gestiónDeClientesToolStripMenuItem,
-            this.controlDeAlmacénToolStripMenuItem,
-            this.gestiónDePersonalToolStripMenuItem,
-            this.controlDeFlotaToolStripMenuItem,
-            this.incidenciasToolStripMenuItem,
-            this.salirToolStripMenuItem});
+            this.facturacionPagos,
+            this.gestionClientes,
+            this.controlAlmacen,
+            this.gestionPersonal,
+            this.controlFlota,
+            this.incidencias,
+            this.salir});
             this.MenuPrincipal.Location = new System.Drawing.Point(0, 0);
             this.MenuPrincipal.Name = "MenuPrincipal";
             this.MenuPrincipal.Size = new System.Drawing.Size(989, 24);
             this.MenuPrincipal.TabIndex = 0;
             this.MenuPrincipal.Text = "menuStrip1";
+            // 
+            // gestiónDePedidosToolStripMenuItem
+            // 
+            this.gestiónDePedidosToolStripMenuItem.Name = "gestiónDePedidosToolStripMenuItem";
+            this.gestiónDePedidosToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
+            this.gestiónDePedidosToolStripMenuItem.Text = "Gestión de Pedidos";
+            // 
+            // facturacionPagos
+            // 
+            this.facturacionPagos.Name = "facturacionPagos";
+            this.facturacionPagos.Size = new System.Drawing.Size(125, 20);
+            this.facturacionPagos.Text = "Facturación y Pagos";
+            // 
+            // gestionClientes
+            // 
+            this.gestionClientes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.buscarCliente,
+            this.listarClientes});
+            this.gestionClientes.Name = "gestionClientes";
+            this.gestionClientes.Size = new System.Drawing.Size(120, 20);
+            this.gestionClientes.Text = "Gestión de Clientes";
+            // 
+            // buscarCliente
+            // 
+            this.buscarCliente.Name = "buscarCliente";
+            this.buscarCliente.Size = new System.Drawing.Size(149, 22);
+            this.buscarCliente.Text = "Buscar Cliente";
+            this.buscarCliente.Click += new System.EventHandler(this.buscarCliente_Click);
+            // 
+            // listarClientes
+            // 
+            this.listarClientes.Name = "listarClientes";
+            this.listarClientes.Size = new System.Drawing.Size(149, 22);
+            this.listarClientes.Text = "Listar Clientes";
+            // 
+            // controlAlmacen
+            // 
+            this.controlAlmacen.Name = "controlAlmacen";
+            this.controlAlmacen.Size = new System.Drawing.Size(125, 20);
+            this.controlAlmacen.Text = "Control de Almacén";
+            this.controlAlmacen.Click += new System.EventHandler(this.controlAlmacen_Click);
+            // 
+            // gestionPersonal
+            // 
+            this.gestionPersonal.Name = "gestionPersonal";
+            this.gestionPersonal.Size = new System.Drawing.Size(123, 20);
+            this.gestionPersonal.Text = "Gestión de personal";
+            this.gestionPersonal.Click += new System.EventHandler(this.gestionPersonal_Click);
+            // 
+            // controlFlota
+            // 
+            this.controlFlota.Name = "controlFlota";
+            this.controlFlota.Size = new System.Drawing.Size(104, 20);
+            this.controlFlota.Text = "Control de Flota";
+            // 
+            // incidencias
+            // 
+            this.incidencias.Name = "incidencias";
+            this.incidencias.Size = new System.Drawing.Size(78, 20);
+            this.incidencias.Text = "Incidencias";
+            // 
+            // salir
+            // 
+            this.salir.Name = "salir";
+            this.salir.Size = new System.Drawing.Size(41, 20);
+            this.salir.Text = "Salir";
+            this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
             // pnlPrincipal
             // 
@@ -117,6 +184,7 @@
             // 
             this.lbUsuario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbUsuario.AutoSize = true;
+            this.lbUsuario.BackColor = System.Drawing.Color.Transparent;
             this.lbUsuario.Location = new System.Drawing.Point(412, 267);
             this.lbUsuario.Name = "lbUsuario";
             this.lbUsuario.Size = new System.Drawing.Size(43, 13);
@@ -127,6 +195,7 @@
             // 
             this.lbPassword.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbPassword.AutoSize = true;
+            this.lbPassword.BackColor = System.Drawing.Color.Transparent;
             this.lbPassword.Location = new System.Drawing.Point(412, 296);
             this.lbPassword.Name = "lbPassword";
             this.lbPassword.Size = new System.Drawing.Size(53, 13);
@@ -161,70 +230,6 @@
             this.imgPrincipal.TabIndex = 8;
             this.imgPrincipal.TabStop = false;
             // 
-            // gestiónDePersonalToolStripMenuItem
-            // 
-            this.gestiónDePersonalToolStripMenuItem.Name = "gestiónDePersonalToolStripMenuItem";
-            this.gestiónDePersonalToolStripMenuItem.Size = new System.Drawing.Size(123, 20);
-            this.gestiónDePersonalToolStripMenuItem.Text = "Gestión de personal";
-            this.gestiónDePersonalToolStripMenuItem.Click += new System.EventHandler(this.gestiónDePersonalToolStripMenuItem_Click);
-            // 
-            // controlDeAlmacénToolStripMenuItem
-            // 
-            this.controlDeAlmacénToolStripMenuItem.Name = "controlDeAlmacénToolStripMenuItem";
-            this.controlDeAlmacénToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
-            this.controlDeAlmacénToolStripMenuItem.Text = "Control de Almacén";
-            // 
-            // facturaciónToolStripMenuItem
-            // 
-            this.facturaciónToolStripMenuItem.Name = "facturaciónToolStripMenuItem";
-            this.facturaciónToolStripMenuItem.Size = new System.Drawing.Size(125, 20);
-            this.facturaciónToolStripMenuItem.Text = "Facturación y Pagos";
-            // 
-            // gestiónDeClientesToolStripMenuItem
-            // 
-            this.gestiónDeClientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.buscarClienteToolStripMenuItem,
-            this.listarClientesToolStripMenuItem});
-            this.gestiónDeClientesToolStripMenuItem.Name = "gestiónDeClientesToolStripMenuItem";
-            this.gestiónDeClientesToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
-            this.gestiónDeClientesToolStripMenuItem.Text = "Gestión de Clientes";
-            // 
-            // incidenciasToolStripMenuItem
-            // 
-            this.incidenciasToolStripMenuItem.Name = "incidenciasToolStripMenuItem";
-            this.incidenciasToolStripMenuItem.Size = new System.Drawing.Size(78, 20);
-            this.incidenciasToolStripMenuItem.Text = "Incidencias";
-            // 
-            // gestiónDePedidosToolStripMenuItem
-            // 
-            this.gestiónDePedidosToolStripMenuItem.Name = "gestiónDePedidosToolStripMenuItem";
-            this.gestiónDePedidosToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
-            this.gestiónDePedidosToolStripMenuItem.Text = "Gestión de Pedidos";
-            // 
-            // controlDeFlotaToolStripMenuItem
-            // 
-            this.controlDeFlotaToolStripMenuItem.Name = "controlDeFlotaToolStripMenuItem";
-            this.controlDeFlotaToolStripMenuItem.Size = new System.Drawing.Size(104, 20);
-            this.controlDeFlotaToolStripMenuItem.Text = "Control de Flota";
-            // 
-            // salirToolStripMenuItem
-            // 
-            this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
-            this.salirToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
-            this.salirToolStripMenuItem.Text = "Salir";
-            // 
-            // buscarClienteToolStripMenuItem
-            // 
-            this.buscarClienteToolStripMenuItem.Name = "buscarClienteToolStripMenuItem";
-            this.buscarClienteToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.buscarClienteToolStripMenuItem.Text = "Buscar Cliente";
-            // 
-            // listarClientesToolStripMenuItem
-            // 
-            this.listarClientesToolStripMenuItem.Name = "listarClientesToolStripMenuItem";
-            this.listarClientesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.listarClientesToolStripMenuItem.Text = "Listar Clientes";
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -244,7 +249,7 @@
             this.MainMenuStrip = this.MenuPrincipal;
             this.Name = "Inicio";
             this.Text = "Inicio";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Inicio_FormClosing);
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.MenuPrincipal.ResumeLayout(false);
             this.MenuPrincipal.PerformLayout();
@@ -269,14 +274,14 @@
         private System.Windows.Forms.TextBox txtPassword;
         private System.Windows.Forms.PictureBox imgPrincipal;
         private System.Windows.Forms.ToolStripMenuItem gestiónDePedidosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem facturaciónToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestiónDeClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem controlDeAlmacénToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem gestiónDePersonalToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem controlDeFlotaToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem incidenciasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem salirToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem buscarClienteToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listarClientesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facturacionPagos;
+        private System.Windows.Forms.ToolStripMenuItem gestionClientes;
+        private System.Windows.Forms.ToolStripMenuItem controlAlmacen;
+        private System.Windows.Forms.ToolStripMenuItem gestionPersonal;
+        private System.Windows.Forms.ToolStripMenuItem controlFlota;
+        private System.Windows.Forms.ToolStripMenuItem incidencias;
+        private System.Windows.Forms.ToolStripMenuItem salir;
+        private System.Windows.Forms.ToolStripMenuItem buscarCliente;
+        private System.Windows.Forms.ToolStripMenuItem listarClientes;
     }
 }

@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace EnvipressLogistic
 {
-    public partial class CAInsertar_Reserva : Form
+    public partial class InsertarReserva : Form
     {
-        public CAInsertar_Reserva()
+        public InsertarReserva()
         {
             InitializeComponent();
         }
