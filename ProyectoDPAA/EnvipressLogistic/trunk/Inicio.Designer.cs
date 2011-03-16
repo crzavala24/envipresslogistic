@@ -49,6 +49,10 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.imgPrincipal = new System.Windows.Forms.PictureBox();
+            this.nuevaFacturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verFacturasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.facturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.busquedaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuPrincipal.SuspendLayout();
             this.pnlPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).BeginInit();
@@ -75,13 +79,16 @@
             // gestiónDePedidosToolStripMenuItem
             // 
             this.gestiónDePedidosToolStripMenuItem.Name = "gestiónDePedidosToolStripMenuItem";
-            this.gestiónDePedidosToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
+            this.gestiónDePedidosToolStripMenuItem.Size = new System.Drawing.Size(110, 20);
             this.gestiónDePedidosToolStripMenuItem.Text = "Gestión de Pedidos";
             // 
             // facturacionPagos
             // 
+            this.facturacionPagos.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevaFacturaToolStripMenuItem,
+            this.verFacturasToolStripMenuItem});
             this.facturacionPagos.Name = "facturacionPagos";
-            this.facturacionPagos.Size = new System.Drawing.Size(125, 20);
+            this.facturacionPagos.Size = new System.Drawing.Size(116, 20);
             this.facturacionPagos.Text = "Facturación y Pagos";
             // 
             // gestionClientes
@@ -90,52 +97,52 @@
             this.buscarCliente,
             this.listarClientes});
             this.gestionClientes.Name = "gestionClientes";
-            this.gestionClientes.Size = new System.Drawing.Size(120, 20);
+            this.gestionClientes.Size = new System.Drawing.Size(111, 20);
             this.gestionClientes.Text = "Gestión de Clientes";
             // 
             // buscarCliente
             // 
             this.buscarCliente.Name = "buscarCliente";
-            this.buscarCliente.Size = new System.Drawing.Size(149, 22);
+            this.buscarCliente.Size = new System.Drawing.Size(153, 22);
             this.buscarCliente.Text = "Buscar Cliente";
             this.buscarCliente.Click += new System.EventHandler(this.buscarCliente_Click);
             // 
             // listarClientes
             // 
             this.listarClientes.Name = "listarClientes";
-            this.listarClientes.Size = new System.Drawing.Size(149, 22);
+            this.listarClientes.Size = new System.Drawing.Size(153, 22);
             this.listarClientes.Text = "Listar Clientes";
             // 
             // controlAlmacen
             // 
             this.controlAlmacen.Name = "controlAlmacen";
-            this.controlAlmacen.Size = new System.Drawing.Size(125, 20);
+            this.controlAlmacen.Size = new System.Drawing.Size(112, 20);
             this.controlAlmacen.Text = "Control de Almacén";
             this.controlAlmacen.Click += new System.EventHandler(this.controlAlmacen_Click);
             // 
             // gestionPersonal
             // 
             this.gestionPersonal.Name = "gestionPersonal";
-            this.gestionPersonal.Size = new System.Drawing.Size(123, 20);
+            this.gestionPersonal.Size = new System.Drawing.Size(114, 20);
             this.gestionPersonal.Text = "Gestión de personal";
             this.gestionPersonal.Click += new System.EventHandler(this.gestionPersonal_Click);
             // 
             // controlFlota
             // 
             this.controlFlota.Name = "controlFlota";
-            this.controlFlota.Size = new System.Drawing.Size(104, 20);
+            this.controlFlota.Size = new System.Drawing.Size(96, 20);
             this.controlFlota.Text = "Control de Flota";
             // 
             // incidencias
             // 
             this.incidencias.Name = "incidencias";
-            this.incidencias.Size = new System.Drawing.Size(78, 20);
+            this.incidencias.Size = new System.Drawing.Size(72, 20);
             this.incidencias.Text = "Incidencias";
             // 
             // salir
             // 
             this.salir.Name = "salir";
-            this.salir.Size = new System.Drawing.Size(41, 20);
+            this.salir.Size = new System.Drawing.Size(39, 20);
             this.salir.Text = "Salir";
             this.salir.Click += new System.EventHandler(this.salir_Click);
             // 
@@ -230,6 +237,36 @@
             this.imgPrincipal.TabIndex = 8;
             this.imgPrincipal.TabStop = false;
             // 
+            // nuevaFacturaToolStripMenuItem
+            // 
+            this.nuevaFacturaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.facturaToolStripMenuItem,
+            this.busquedaToolStripMenuItem});
+            this.nuevaFacturaToolStripMenuItem.Name = "nuevaFacturaToolStripMenuItem";
+            this.nuevaFacturaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nuevaFacturaToolStripMenuItem.Text = "Nuevo";
+            // 
+            // verFacturasToolStripMenuItem
+            // 
+            this.verFacturasToolStripMenuItem.Name = "verFacturasToolStripMenuItem";
+            this.verFacturasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.verFacturasToolStripMenuItem.Text = "Ver facturas";
+            this.verFacturasToolStripMenuItem.Click += new System.EventHandler(this.verFacturasToolStripMenuItem_Click);
+            // 
+            // facturaToolStripMenuItem
+            // 
+            this.facturaToolStripMenuItem.Name = "facturaToolStripMenuItem";
+            this.facturaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.facturaToolStripMenuItem.Text = "Factura";
+            this.facturaToolStripMenuItem.Click += new System.EventHandler(this.facturaToolStripMenuItem_Click);
+            // 
+            // busquedaToolStripMenuItem
+            // 
+            this.busquedaToolStripMenuItem.Name = "busquedaToolStripMenuItem";
+            this.busquedaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.busquedaToolStripMenuItem.Text = "Busqueda";
+            this.busquedaToolStripMenuItem.Click += new System.EventHandler(this.busquedaToolStripMenuItem_Click);
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -283,5 +320,9 @@
         private System.Windows.Forms.ToolStripMenuItem salir;
         private System.Windows.Forms.ToolStripMenuItem buscarCliente;
         private System.Windows.Forms.ToolStripMenuItem listarClientes;
+        private System.Windows.Forms.ToolStripMenuItem nuevaFacturaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem facturaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verFacturasToolStripMenuItem;
     }
 }
