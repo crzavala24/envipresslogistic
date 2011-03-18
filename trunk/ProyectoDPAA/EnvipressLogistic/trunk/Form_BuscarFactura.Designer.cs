@@ -173,6 +173,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Form_BuscarFactura";
             this.Text = "Buscar Factura";
+            this.Load += new System.EventHandler(this.Form_BuscarFactura_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

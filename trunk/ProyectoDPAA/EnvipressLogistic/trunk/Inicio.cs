@@ -117,5 +117,33 @@ namespace EnvipressLogistic
             frmhijo.MdiParent = this;
             frmhijo.Show();
         }
+
+        private void listadoFlotaStrpMenuItem_Click(object senderm, EventArgs e)
+        {
+            ListadoFlota form = new ListadoFlota();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void FlotaStrpMenuItem_Click(object senderm, EventArgs e)
+        {
+            Flota form = new Flota();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void incidenciasAntStrpMenuItem_Click(object senderm, EventArgs e)
+        {
+            IncidenciasAnteriores form = new IncidenciasAnteriores();
+            form.MdiParent = this;
+            form.Show();
+        }
+
+        private void incidenciastrpMenuItem_Click(object senderm, EventArgs e)
+        {
+            Incidencias form = new Incidencias();
+            form.MdiParent = this;
+            form.Show();
+        }
     }
 }

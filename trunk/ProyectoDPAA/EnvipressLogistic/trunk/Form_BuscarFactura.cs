@@ -21,5 +21,10 @@ namespace EnvipressLogistic
             Form_BuscarFacturaResultados resultados = new Form_BuscarFacturaResultados();
             resultados.Show();
         }
+
+        private void Form_BuscarFactura_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

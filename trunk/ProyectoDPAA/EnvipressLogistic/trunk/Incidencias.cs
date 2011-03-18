@@ -7,13 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DPAA
+namespace EnvipressLogistic
 {
     public partial class Incidencias : Form
     {
         public Incidencias()
         {
             InitializeComponent();
+        }
+
+        private void Incidencias_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

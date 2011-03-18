@@ -7,16 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace DPAA
+namespace EnvipressLogistic
 {
-    public partial class Form1 : Form
+    public partial class Flota : Form
     {
-        public Form1()
+        public Flota()
         {
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void Flota_Load(object sender, EventArgs e)
         {
 
         }
