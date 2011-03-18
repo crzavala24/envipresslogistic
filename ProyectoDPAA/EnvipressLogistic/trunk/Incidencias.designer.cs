@@ -1,4 +1,4 @@
-﻿namespace DPAA
+﻿namespace EnvipressLogistic
 {
     partial class Incidencias
     {
@@ -173,6 +173,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Incidencias";
             this.Text = "Incidencias";
+            this.Load += new System.EventHandler(this.Incidencias_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

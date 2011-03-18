@@ -1,4 +1,4 @@
-﻿namespace DPAA
+﻿namespace EnvipressLogistic
 {
     partial class IncidenciasAnteriores
     {
@@ -90,6 +90,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "IncidenciasAnteriores";
             this.Text = "IncidenciasAnteriores";
+            this.Load += new System.EventHandler(this.IncidenciasAnteriores_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

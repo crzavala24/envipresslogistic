@@ -1,6 +1,6 @@
-﻿namespace DPAA
+﻿namespace EnvipressLogistic
 {
-    partial class Form1
+    partial class Flota
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -395,7 +395,7 @@
             this.Controls.Add(this.radioButton1);
             this.Name = "Form1";
             this.Text = "Datos Transporte";
-            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Load += new System.EventHandler(this.Flota_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
