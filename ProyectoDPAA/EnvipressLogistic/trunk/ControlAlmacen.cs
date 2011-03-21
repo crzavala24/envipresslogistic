@@ -161,5 +161,10 @@ namespace EnvipressLogistic
         {
 
         }
+
+        private void ControlAlmacen_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

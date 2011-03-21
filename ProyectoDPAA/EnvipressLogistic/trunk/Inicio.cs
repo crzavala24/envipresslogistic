@@ -118,28 +118,28 @@ namespace EnvipressLogistic
             frmhijo.Show();
         }
 
-        private void listadoFlotaStrpMenuItem_Click(object senderm, EventArgs e)
+        private void listarFlotaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             ListadoFlota form = new ListadoFlota();
             form.MdiParent = this;
             form.Show();
         }
 
-        private void FlotaStrpMenuItem_Click(object senderm, EventArgs e)
+        private void agregarTransporteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Flota form = new Flota();
             form.MdiParent = this;
             form.Show();
         }
 
-        private void incidenciasAntStrpMenuItem_Click(object senderm, EventArgs e)
+        private void incidenciasAnterioresToolStirpMenuItem_Click(object sender, EventArgs e)
         {
             IncidenciasAnteriores form = new IncidenciasAnteriores();
             form.MdiParent = this;
             form.Show();
         }
 
-        private void incidenciastrpMenuItem_Click(object senderm, EventArgs e)
+        private void agregarIncidenciaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Incidencias form = new Incidencias();
             form.MdiParent = this;

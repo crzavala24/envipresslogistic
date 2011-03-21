@@ -241,6 +241,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ControlAlmacen";
             this.Text = "Control Almacen";
+            this.Load += new System.EventHandler(this.ControlAlmacen_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

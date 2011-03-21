@@ -20,5 +20,15 @@ namespace EnvipressLogistic
         {
 
         }
+
+        private void btAceptar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
