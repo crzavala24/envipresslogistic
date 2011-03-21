@@ -45,5 +45,43 @@ namespace EnvipressLogistic
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            BuscarCliente nForm = new BuscarCliente();
+            nForm.Show();
+            Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BuscarCliente nForm = new BuscarCliente();
+            nForm.Show();
+            Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            BuscarCliente nForm = new BuscarCliente();
+            nForm.Show();
+            Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            DetallePedido nForm = new DetallePedido();
+            nForm.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            CAVerAlmacen nForm = new CAVerAlmacen();
+            nForm.Show();
+        }
     }
 }
