@@ -13,6 +13,7 @@ namespace EnvipressLogistic
     {
         public Flota()
         {
+            IsMdiContainer = true;
             InitializeComponent();
         }
 
@@ -39,6 +40,16 @@ namespace EnvipressLogistic
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btAceptar_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

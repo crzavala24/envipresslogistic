@@ -13,6 +13,7 @@ namespace EnvipressLogistic
     {
         public ListadoFlota()
         {
+            IsMdiContainer = true;
             InitializeComponent();
         }
 
