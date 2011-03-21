@@ -145,5 +145,16 @@ namespace EnvipressLogistic
             form.MdiParent = this;
             form.Show();
         }
+
+        private void facturacionPagos_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listadoPedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListadoPedidos form = new ListadoPedidos();
+            form.Show();
+        }
     }
 }
