@@ -42,9 +42,11 @@
             this.controlAlmacen = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionPersonal = new System.Windows.Forms.ToolStripMenuItem();
             this.controlFlota = new System.Windows.Forms.ToolStripMenuItem();
-            this.listarFlotaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ListadoFlota = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarTransporteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.incidencias = new System.Windows.Forms.ToolStripMenuItem();
+            this.incidenciasAnterioresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarIncidenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salir = new System.Windows.Forms.ToolStripMenuItem();
             this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.pboxPrincipal = new System.Windows.Forms.PictureBox();
@@ -55,8 +57,6 @@
             this.txtUsuario = new System.Windows.Forms.TextBox();
             this.txtPassword = new System.Windows.Forms.TextBox();
             this.imgPrincipal = new System.Windows.Forms.PictureBox();
-            this.incidenciasAnterioresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.agregarIncidenciaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuPrincipal.SuspendLayout();
             this.pnlPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).BeginInit();
@@ -101,7 +101,7 @@
             this.facturaToolStripMenuItem,
             this.busquedaToolStripMenuItem});
             this.nuevaFacturaToolStripMenuItem.Name = "nuevaFacturaToolStripMenuItem";
-            this.nuevaFacturaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.nuevaFacturaToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.nuevaFacturaToolStripMenuItem.Text = "Nuevo";
             // 
             // facturaToolStripMenuItem
@@ -121,7 +121,7 @@
             // verFacturasToolStripMenuItem
             // 
             this.verFacturasToolStripMenuItem.Name = "verFacturasToolStripMenuItem";
-            this.verFacturasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.verFacturasToolStripMenuItem.Size = new System.Drawing.Size(136, 22);
             this.verFacturasToolStripMenuItem.Text = "Ver facturas";
             this.verFacturasToolStripMenuItem.Click += new System.EventHandler(this.verFacturasToolStripMenuItem_Click);
             // 
@@ -137,14 +137,14 @@
             // buscarCliente
             // 
             this.buscarCliente.Name = "buscarCliente";
-            this.buscarCliente.Size = new System.Drawing.Size(152, 22);
+            this.buscarCliente.Size = new System.Drawing.Size(149, 22);
             this.buscarCliente.Text = "Buscar Cliente";
             this.buscarCliente.Click += new System.EventHandler(this.buscarCliente_Click);
             // 
             // listarClientes
             // 
             this.listarClientes.Name = "listarClientes";
-            this.listarClientes.Size = new System.Drawing.Size(152, 22);
+            this.listarClientes.Size = new System.Drawing.Size(149, 22);
             this.listarClientes.Text = "Listar Clientes";
             // 
             // controlAlmacen
@@ -164,17 +164,18 @@
             // controlFlota
             // 
             this.controlFlota.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.listarFlotaToolStripMenuItem,
+            this.ListadoFlota,
             this.agregarTransporteToolStripMenuItem});
             this.controlFlota.Name = "controlFlota";
             this.controlFlota.Size = new System.Drawing.Size(104, 20);
             this.controlFlota.Text = "Control de Flota";
             // 
-            // listarFlotaToolStripMenuItem
+            // ListadoFlota
             // 
-            this.listarFlotaToolStripMenuItem.Name = "listarFlotaToolStripMenuItem";
-            this.listarFlotaToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.listarFlotaToolStripMenuItem.Text = "Listar flota";
+            this.ListadoFlota.Name = "ListadoFlota";
+            this.ListadoFlota.Size = new System.Drawing.Size(173, 22);
+            this.ListadoFlota.Text = "ListadoFlota";
+            this.ListadoFlota.Click += new System.EventHandler(this.ListadoFlota_Click);
             // 
             // agregarTransporteToolStripMenuItem
             // 
@@ -190,6 +191,18 @@
             this.incidencias.Name = "incidencias";
             this.incidencias.Size = new System.Drawing.Size(78, 20);
             this.incidencias.Text = "Incidencias";
+            // 
+            // incidenciasAnterioresToolStripMenuItem
+            // 
+            this.incidenciasAnterioresToolStripMenuItem.Name = "incidenciasAnterioresToolStripMenuItem";
+            this.incidenciasAnterioresToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.incidenciasAnterioresToolStripMenuItem.Text = "Anteriores";
+            // 
+            // agregarIncidenciaToolStripMenuItem
+            // 
+            this.agregarIncidenciaToolStripMenuItem.Name = "agregarIncidenciaToolStripMenuItem";
+            this.agregarIncidenciaToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.agregarIncidenciaToolStripMenuItem.Text = "Agregar incidencia";
             // 
             // salir
             // 
@@ -289,18 +302,6 @@
             this.imgPrincipal.TabIndex = 8;
             this.imgPrincipal.TabStop = false;
             // 
-            // incidenciasAnterioresToolStripMenuItem
-            // 
-            this.incidenciasAnterioresToolStripMenuItem.Name = "incidenciasAnterioresToolStripMenuItem";
-            this.incidenciasAnterioresToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.incidenciasAnterioresToolStripMenuItem.Text = "Anteriores";
-            // 
-            // agregarIncidenciaToolStripMenuItem
-            // 
-            this.agregarIncidenciaToolStripMenuItem.Name = "agregarIncidenciaToolStripMenuItem";
-            this.agregarIncidenciaToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
-            this.agregarIncidenciaToolStripMenuItem.Text = "Agregar incidencia";
-            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,7 +359,7 @@
         private System.Windows.Forms.ToolStripMenuItem facturaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem busquedaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verFacturasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem listarFlotaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ListadoFlota;
         private System.Windows.Forms.ToolStripMenuItem agregarTransporteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem incidenciasAnterioresToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarIncidenciaToolStripMenuItem;

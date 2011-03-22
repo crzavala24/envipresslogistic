@@ -118,13 +118,6 @@ namespace EnvipressLogistic
             frmhijo.Show();
         }
 
-        private void listarFlotaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            ListadoFlota form = new ListadoFlota();
-            form.MdiParent = this;
-            form.Show();
-        }
-
         private void agregarTransporteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Flota form = new Flota();
@@ -153,7 +146,14 @@ namespace EnvipressLogistic
 
         private void listadoPedidosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ListadoPedidos form = new ListadoPedidos();
+           // ListadoPedidos form = new ListadoPedidos();
+           // form.Show();
+        }
+
+        private void ListadoFlota_Click(object sender, EventArgs e)
+        {
+            ListadoFlota form = new ListadoFlota();
+            //form.MdiParent = this;
             form.Show();
         }
     }
