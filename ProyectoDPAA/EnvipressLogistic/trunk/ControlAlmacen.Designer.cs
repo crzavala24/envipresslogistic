@@ -44,12 +44,10 @@
             this.Ayuda = new System.Windows.Forms.ToolStripMenuItem();
             this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pnlPrincipal = new System.Windows.Forms.Panel();
             this.pboxPrincipal = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.pnlPrincipal.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).BeginInit();
@@ -153,7 +151,7 @@
             this.Ayuda});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(638, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(645, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -184,17 +182,6 @@
             this.label1.TabIndex = 4;
             this.label1.Text = "CONTROL DE ALMACEN";
             // 
-            // dataGridView1
-            // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(966, -262);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(728, 316);
-            this.dataGridView1.TabIndex = 1;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
@@ -210,14 +197,14 @@
             this.pnlPrincipal.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.pnlPrincipal.Location = new System.Drawing.Point(0, 439);
             this.pnlPrincipal.Name = "pnlPrincipal";
-            this.pnlPrincipal.Size = new System.Drawing.Size(638, 79);
+            this.pnlPrincipal.Size = new System.Drawing.Size(645, 79);
             this.pnlPrincipal.TabIndex = 6;
             // 
             // pboxPrincipal
             // 
             this.pboxPrincipal.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pboxPrincipal.Image = ((System.Drawing.Image)(resources.GetObject("pboxPrincipal.Image")));
-            this.pboxPrincipal.Location = new System.Drawing.Point(433, 14);
+            this.pboxPrincipal.Location = new System.Drawing.Point(440, 14);
             this.pboxPrincipal.Name = "pboxPrincipal";
             this.pboxPrincipal.Size = new System.Drawing.Size(157, 53);
             this.pboxPrincipal.TabIndex = 0;
@@ -229,11 +216,10 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(638, 518);
+            this.ClientSize = new System.Drawing.Size(645, 518);
             this.Controls.Add(this.pnlPrincipal);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.Color.Yellow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -244,7 +230,6 @@
             this.Load += new System.EventHandler(this.ControlAlmacen_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.pnlPrincipal.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pboxPrincipal)).EndInit();
@@ -270,7 +255,6 @@
         private System.Windows.Forms.ToolStripMenuItem ControlAlmacenes;
         private System.Windows.Forms.ToolStripMenuItem BuscarAlmacen;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel pnlPrincipal;
         private System.Windows.Forms.PictureBox pboxPrincipal;
