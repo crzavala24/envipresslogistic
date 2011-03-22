@@ -47,14 +47,14 @@ namespace EnvipressLogistic
         {
             foreach (Form f in this.MdiChildren)
             {
-                if (f.Name == "InsertarReserva")
+                if (f.Name == "ModificarReserva")
                 {
                     f.Activate();
                     return;
                 }
             }
 
-            InsertarReserva modReserva = new InsertarReserva();
+            CAModificar_Reserva modReserva = new CAModificar_Reserva();
             modReserva.MdiParent = this;
             modReserva.WindowState = FormWindowState.Maximized;
             modReserva.Show();
@@ -66,14 +66,14 @@ namespace EnvipressLogistic
         {
             foreach (Form f in this.MdiChildren)
             {
-                if (f.Name == "InsertarReserva")
+                if (f.Name == "BorrarReserva")
                 {
                     f.Activate();
                     return;
                 }
             }
 
-            InsertarReserva borrarReserva = new InsertarReserva();
+            CABorrar_Reserva borrarReserva = new CABorrar_Reserva();
             borrarReserva.MdiParent = this;
             borrarReserva.WindowState = FormWindowState.Maximized;
             borrarReserva.Show();
