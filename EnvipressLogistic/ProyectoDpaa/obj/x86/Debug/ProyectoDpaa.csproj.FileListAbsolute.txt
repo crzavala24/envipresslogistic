@@ -1,3 +1,45 @@
+<<<<<<< .mine
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.pdb
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Klik.Windows.Forms.EntryLib.V2.2005.dll
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Logueo.resources
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.exe.licenses
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\WindowsFormsApplication2.Principal.resources
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel\Desktop\DPAA\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\EnvipressLogistic.exe.config
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\EnvipressLogistic.exe.config
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.Properties.Resources.resources
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.exe.licenses
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.Personal.resources
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.Logueo.resources
+C:\Users\Angel\Desktop\EnvipressLogistic\obj\x86\Debug\EnvipressLogistic.Principal.resources
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\EnvipressLogisticBD.mdf
+C:\Users\Angel\Desktop\EnvipressLogistic\bin\Debug\EnvipressLogisticBD_log.ldf
+=======
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe.config
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\bin\Debug\EnvipressLogisticBD.mdf
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\bin\Debug\EnvipressLogisticBD_log.ldf
@@ -18,3 +60,4 @@ C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Deb
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe.licenses
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.pdb
+>>>>>>> .r143
