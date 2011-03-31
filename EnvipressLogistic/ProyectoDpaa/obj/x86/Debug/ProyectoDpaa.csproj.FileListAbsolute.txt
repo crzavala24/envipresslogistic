@@ -60,4 +60,49 @@ C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Deb
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe.licenses
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe
 C:\Users\Angel\Desktop\Ejemplos libro\EnvipressLogistic\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.pdb
+<<<<<<< .mine
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe.config
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\EnvipressLogisticBD.mdf
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\EnvipressLogisticBD_log.ldf
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\EnvipressLogistic.pdb
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\Users\Angel\Desktop\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Almacen.resources
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Logueo.resources
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Personal.resources
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Principal.resources
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Properties.Resources.resources
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Angel\Desktop\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe.licenses
+C:\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe.config
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.pdb
+C:\ProyectoDpaa\bin\Debug\EnvipressLogisticBD.mdf
+C:\ProyectoDpaa\bin\Debug\EnvipressLogisticBD_log.ldf
+C:\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe
+C:\ProyectoDpaa\bin\Debug\EnvipressLogistic.pdb
+C:\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
+C:\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.pdb
+C:\ProyectoDpaa\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Almacen.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Logueo.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Contabilidad.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Personal.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Principal.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Properties.Resources.resources
+C:\ProyectoDpaa\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\ProyectoDpaa\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe.licenses
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Flota.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Incidencias.resources
+C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Pedidos.resources
+=======
 >>>>>>> .r143
+>>>>>>> .r150
