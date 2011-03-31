@@ -159,36 +159,6 @@ namespace EnvipressLogistic.LogicaNegocio
             return DSAux;
         }
 
-        //Muestra los clientes de una ciudad
-        public DataSet getDSEmpleados(string localidad)
-        {
-            DataSet DSAux = new DataSet();
-            try
-            {
-               // DSAux = cadEmpleado.getDSEmpleados(localidad);
-            }
-            catch (Exception ex)
-            {
-                ex.Message.ToString();
-            }
-            return DSAux;
-        }
-
-        //Muestra los clientes de una provincia
-        public DataSet getDSEmpleados(string provincia)
-        {
-            DataSet DSAux = new DataSet();
-            try
-            {
-               // DSAux = cadEmpleado.getDSEmpleados(provincia);
-            }
-            catch (Exception ex)
-            {
-                ex.Message.ToString();
-            }
-            return DSAux;
-        }
-
         //Insertar un nuevo Empleado
         public bool InsertarEmpleado()
         {
