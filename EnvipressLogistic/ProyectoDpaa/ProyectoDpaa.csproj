@@ -79,6 +79,7 @@
     <Compile Include="CAD\CADReserva.cs" />
     <Compile Include="Conexion.cs" />
     <Compile Include="gestorDataBase.cs" />
+    <Compile Include="LogicaNegocio\Class1.cs" />
     <Compile Include="LogicaNegocio\Empleado.cs" />
     <Compile Include="UI\Almacen.cs">
       <SubType>Form</SubType>
