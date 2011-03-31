@@ -69,6 +69,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CAD\CADAlmacen.cs" />
+    <Compile Include="CAD\CADCamion.cs" />
+    <Compile Include="CAD\CADCliente.cs" />
+    <Compile Include="CAD\CADEmpleado.cs" />
+    <Compile Include="CAD\CADFactura.cs" />
+    <Compile Include="CAD\CADIncidencia.cs" />
+    <Compile Include="CAD\CADPeticionEnvio.cs" />
+    <Compile Include="CAD\CADReserva.cs" />
+    <Compile Include="Conexion.cs" />
+    <Compile Include="gestorDataBase.cs" />
+    <Compile Include="LogicaNegocio\Empleado.cs" />
+    <Compile Include="UI\Almacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Almacen.Designer.cs">
+      <DependentUpon>Almacen.cs</DependentUpon>
+    </Compile>
     <Compile Include="EnvipressLogisticBDDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -80,10 +97,34 @@
     <Compile Include="Logueo.Designer.cs">
       <DependentUpon>Logueo.cs</DependentUpon>
     </Compile>
-    <Compile Include="Personal.cs">
+    <Compile Include="UI\Contabilidad.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Personal.Designer.cs">
+    <Compile Include="UI\Contabilidad.designer.cs">
+      <DependentUpon>Contabilidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Flota.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Flota.designer.cs">
+      <DependentUpon>Flota.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Incidencias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Incidencias.designer.cs">
+      <DependentUpon>Incidencias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Pedidos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Pedidos.designer.cs">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Personal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Personal.Designer.cs">
       <DependentUpon>Personal.cs</DependentUpon>
     </Compile>
     <Compile Include="Principal.cs">
@@ -94,10 +135,26 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validacion.cs" />
+    <EmbeddedResource Include="UI\Almacen.resx">
+      <DependentUpon>Almacen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Logueo.resx">
       <DependentUpon>Logueo.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Personal.resx">
+    <EmbeddedResource Include="UI\Contabilidad.resx">
+      <DependentUpon>Contabilidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Flota.resx">
+      <DependentUpon>Flota.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Incidencias.resx">
+      <DependentUpon>Incidencias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Pedidos.resx">
+      <DependentUpon>Pedidos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Personal.resx">
       <DependentUpon>Personal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Principal.resx">
@@ -172,6 +229,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
