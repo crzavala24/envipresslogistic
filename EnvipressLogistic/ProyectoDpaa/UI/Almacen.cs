@@ -31,6 +31,16 @@ namespace EnvipressLogistic
             btGuardarNuevo.Enabled = false;
             btCancelar.Enabled = false;
             btCancelarNuevo.Enabled = false;
+            gbDatosReserva.Visible = false;
+            dgvReserva.Visible = false;
+            btVerDetalle2.Visible = false;
+            btCancelarResultado2.Visible = false;
+            gbBuscar2.Visible = false;
+            btReservaModificar.Enabled = false;
+            btReservaEliminar.Enabled = false;
+            btReservaGuardarNuevo.Enabled = false;
+            btReservaCancelar.Enabled = false;
+
         }
 
         private void btNuevo_Click(object sender, EventArgs e)
@@ -212,29 +222,12 @@ namespace EnvipressLogistic
             btNuevo.Enabled = true;
             btBuscar.Enabled = true;
         }
-
-  /*    private void tbpgReservas_Click(object sender, EventArgs e)
-        {
-            //Mostramos solo el GroupBox de Acciones
-            gbDatosAlmacen.Visible = false;
-            gbBuscar.Visible = false;
-            dgvAlmacenes.Visible = false;
-            btVerDetalle.Visible = false;
-            btCancelarResultado.Visible = false;
-            //Desactivamos los botones que no necesitamos
-            btModificar.Enabled = false;
-            btEliminar.Enabled = false;
-            btGuardar.Enabled = false;
-            btGuardarNuevo.Enabled = false;
-            btCancelar.Enabled = false;
-            btCancelarNuevo.Enabled = false;
-        }
    
         private void btReservaNuevo_Click(object sender, EventArgs e)
         {
             //Mostramos los datos a rellenar y activamos los botones de guardar y cancelar nuevo
-            gbDatosAlmacen.Visible = true;
-            gbDatosAlmacen.Enabled = true;
+            gbDatosReserva.Visible = true;
+            gbDatosReserva.Enabled = true;
             btGuardarNuevo.Enabled = true;
             btCancelarNuevo.Enabled = true;
             btGuardarNuevo.Visible = true;
@@ -248,7 +241,7 @@ namespace EnvipressLogistic
 
         private void btReservaModificar_Click(object sender, EventArgs e)
         {
-            gbDatosAlmacen.Enabled = true;
+            gbDatosReserva.Enabled = true;
             btGuardar.Enabled = true;
             btCancelar.Enabled = true;
             btModificar.Enabled = false;
@@ -267,9 +260,9 @@ namespace EnvipressLogistic
         private void btReservaEliminar_Click(object sender, EventArgs e)
         {
             //Mostramos solo el GroupBox de Acciones
-            gbDatosAlmacen.Visible = false;
+            gbDatosReserva.Visible = false;
             gbBuscar.Visible = false;
-            dgvAlmacenes.Visible = false;
+            dgvReserva.Visible = false;
             btVerDetalle.Visible = false;
             btCancelarResultado.Visible = false;
             //Desactivamos los botones que no necesitamos
@@ -286,7 +279,7 @@ namespace EnvipressLogistic
         private void btReservaGuardarNuevo_Click(object sender, EventArgs e)
         {
             //Mostramos solo el GroupBox de Acciones
-            gbDatosAlmacen.Visible = false;
+            gbDatosReserva.Visible = false;
             //Desactivamos los botones que no necesitamos
             btGuardarNuevo.Enabled = false;
             btCancelarNuevo.Enabled = false;
@@ -296,8 +289,8 @@ namespace EnvipressLogistic
 
         private void btReservaCancelar_Click(object sender, EventArgs e)
         {
-            gbDatosAlmacen.Visible = false;
-            dgvAlmacenes.Visible = false;
+            gbDatosReserva.Visible = false;
+            dgvReserva.Visible = false;
             btVerDetalle.Enabled = true;
             btVerDetalle.Visible = false;
             btCancelarResultado.Visible = false;
@@ -312,9 +305,9 @@ namespace EnvipressLogistic
         private void btReservaGuardar_Click(object sender, EventArgs e)
         {
             //Mostramos solo el GroupBox de Acciones
-            gbDatosAlmacen.Visible = false;
+            gbDatosReserva.Visible = false;
             gbBuscar.Visible = false;
-            dgvAlmacenes.Visible = false;
+            dgvReserva.Visible = false;
             btVerDetalle.Visible = false;
             btCancelarResultado.Visible = false;
             //Desactivamos los botones que no necesitamos
@@ -331,7 +324,7 @@ namespace EnvipressLogistic
         private void btReservaCancelarNuevo_Click(object sender, EventArgs e)
         {
             //Mostramos solo el GroupBox de Acciones
-            gbDatosAlmacen.Visible = false;
+            gbDatosReserva.Visible = false;
             //Desactivamos los botones que no necesitamos
             btGuardarNuevo.Enabled = false;
             btCancelarNuevo.Enabled = false;
@@ -341,7 +334,7 @@ namespace EnvipressLogistic
 
         private void btReservaBuscarBuscar_Click(object sender, EventArgs e)
         {
-            dgvAlmacenes.Visible = true;
+            dgvReserva.Visible = true;
             btVerDetalle.Visible = true;
             btVerDetalle.Enabled = true;
             btCancelarResultado.Visible = true;
@@ -359,21 +352,21 @@ namespace EnvipressLogistic
         {
             gbBuscar.Enabled = true;
             gbBuscar.Visible = false;
-            gbDatosAlmacen.Visible = true;
+            gbDatosReserva.Visible = true;
             btModificar.Enabled = true;
             btEliminar.Enabled = true;
             btVerDetalle.Enabled = false;
-            gbDatosAlmacen.Enabled = false;
+            gbDatosReserva.Enabled = false;
         }
 
         private void btCancelarResultado2_Click(object sender, EventArgs e)
         {
             if (gbDatosAlmacen.Visible == true)
             {
-                gbDatosAlmacen.Visible = false;
+                gbDatosReserva.Visible = false;
                 btModificar.Enabled = false;
                 btEliminar.Enabled = false;
-                dgvAlmacenes.Visible = false;
+                dgvReserva.Visible = false;
                 btVerDetalle.Enabled = true;
                 btVerDetalle.Visible = false;
                 gbBuscar.Visible = true;
@@ -382,11 +375,80 @@ namespace EnvipressLogistic
             else
             {
                 btVerDetalle.Visible = false;
-                dgvAlmacenes.Visible = false;
+                dgvReserva.Visible = false;
                 btCancelarResultado.Visible = false;
                 gbBuscar.Enabled = true;
             }
-        }*/
+        }
 
+        //Creadas por Christian
+
+        private void btVolverReserva_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void btInicioReserva_Click(object sender, EventArgs e)
+        {
+            gbDatosReserva.Visible = false;
+            gbBuscar2.Visible = false;
+            dgvReserva.Visible = false;
+            btVerDetalle2.Visible = false;
+            btCancelarResultado2.Visible = false;
+            btReservaModificar.Enabled = false;
+            btReservaEliminar.Enabled = false;
+            btReservaGuardarNuevo.Enabled = false;
+            btReservaCancelar.Enabled = false;
+
+        }
+
+        private void btReservaNuevo_Click_1(object sender, EventArgs e)
+        {
+            gbDatosReserva.Visible = true;
+            btReservaGuardarNuevo.Enabled = true;
+            btReservaCancelar.Enabled = true;
+            btReservaNuevo.Enabled = false;
+            btReservaBuscar.Enabled = false;
+        }
+
+        private void btReservaBuscar_Click_1(object sender, EventArgs e)
+        {
+            gbBuscar2.Visible = true;
+            gbAcciones2.Enabled = true;
+            gbBuscar2.Enabled = true;
+
+        }
+
+        private void btCancelarResultado2_Click_1(object sender, EventArgs e)
+        {
+            btCancelarResultado2.Visible = false;
+            dgvReserva.Visible = false;
+            btVerDetalle2.Visible = false;
+            gbAcciones2.Enabled = true;
+            gbBuscar2.Enabled = true;
+        }
+
+        private void btReservaBuscarBuscar_Click_1(object sender, EventArgs e)
+        {
+            dgvReserva.Visible = true;
+            btCancelarResultado2.Visible = true;
+            btVerDetalle2.Visible = true;
+            gbAcciones2.Enabled = false;
+            gbBuscar2.Enabled = false;
+        }
+
+        private void btCancelarBuscar2_Click_1(object sender, EventArgs e)
+        {
+            gbBuscar2.Visible = false;
+        }
+
+        private void btReservaCancelar_Click_1(object sender, EventArgs e)
+        {
+            gbDatosReserva.Visible = false;
+            btReservaNuevo.Enabled = true;
+            btReservaBuscar.Enabled = true;
+            btReservaCancelar.Enabled = false;
+            btReservaGuardarNuevo.Enabled = false;
+        }
     }
 }

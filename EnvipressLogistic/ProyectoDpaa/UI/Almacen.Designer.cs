@@ -72,7 +72,7 @@
             this.txtNombre = new Klik.Windows.Forms.v1.EntryLib.ELEntryBox();
             this.tbpgReservas = new Klik.Windows.Forms.v1.EntryLib.ELTabPage();
             this.btCancelarResultado2 = new System.Windows.Forms.Button();
-            this.elDataGridView1 = new Klik.Windows.Forms.v1.EntryLib.ELDataGridView();
+            this.dgvReserva = new Klik.Windows.Forms.v1.EntryLib.ELDataGridView();
             this.btVerDetalle2 = new System.Windows.Forms.Button();
             this.gbBuscar2 = new Klik.Windows.Forms.v1.EntryLib.ELGroupBox();
             this.btCancelarBuscar2 = new System.Windows.Forms.Button();
@@ -87,8 +87,8 @@
             this.btReservaNuevo = new System.Windows.Forms.Button();
             this.btReservaModificar = new System.Windows.Forms.Button();
             this.btReservaEliminar = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btVolverReserva = new System.Windows.Forms.Button();
+            this.btInicioReserva = new System.Windows.Forms.Button();
             this.gbDatosReserva = new Klik.Windows.Forms.v1.EntryLib.ELGroupBox();
             this.lblFechaSalida = new Klik.Windows.Forms.v1.EntryLib.ELLabel();
             this.lblFechaEntrada = new Klik.Windows.Forms.v1.EntryLib.ELLabel();
@@ -124,7 +124,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtNombre)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbpgReservas)).BeginInit();
             this.tbpgReservas.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.elDataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReserva)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gbBuscar2)).BeginInit();
             this.gbBuscar2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtReservaBuscarPor2)).BeginInit();
@@ -156,7 +156,7 @@
             this.tbAlmacenes.Location = new System.Drawing.Point(0, 0);
             this.tbAlmacenes.Name = "tbAlmacenes";
             this.tbAlmacenes.Office2007Scheme = Klik.Windows.Forms.v1.Common.Office2007Schemes.ModernBlack;
-            this.tbAlmacenes.Size = new System.Drawing.Size(1185, 483);
+            this.tbAlmacenes.Size = new System.Drawing.Size(1080, 579);
             this.tbAlmacenes.TabCaptionStyle.FlashStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
             this.tbAlmacenes.TabCaptionStyle.FlashStyle.SolidColor = System.Drawing.Color.FromArgb(((int)(((byte)(253)))), ((int)(((byte)(240)))), ((int)(((byte)(191)))));
             this.tbAlmacenes.TabCaptionStyle.StateStyles.FocusStyle.BackgroundPaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
@@ -181,7 +181,7 @@
             this.tbpgAlmacen.Controls.Add(this.gbDatosAlmacen);
             this.tbpgAlmacen.Location = new System.Drawing.Point(1, 23);
             this.tbpgAlmacen.Name = "tbpgAlmacen";
-            this.tbpgAlmacen.Size = new System.Drawing.Size(1183, 459);
+            this.tbpgAlmacen.Size = new System.Drawing.Size(1078, 555);
             // 
             // btCancelarResultado
             // 
@@ -213,7 +213,7 @@
             this.btInicio.FlatAppearance.BorderSize = 0;
             this.btInicio.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btInicio.Image = ((System.Drawing.Image)(resources.GetObject("btInicio.Image")));
-            this.btInicio.Location = new System.Drawing.Point(1096, 381);
+            this.btInicio.Location = new System.Drawing.Point(991, 477);
             this.btInicio.Name = "btInicio";
             this.btInicio.Size = new System.Drawing.Size(84, 67);
             this.btInicio.TabIndex = 34;
@@ -226,7 +226,7 @@
             this.btVolver.FlatAppearance.BorderSize = 0;
             this.btVolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btVolver.Image = ((System.Drawing.Image)(resources.GetObject("btVolver.Image")));
-            this.btVolver.Location = new System.Drawing.Point(1010, 381);
+            this.btVolver.Location = new System.Drawing.Point(905, 477);
             this.btVolver.Name = "btVolver";
             this.btVolver.Size = new System.Drawing.Size(84, 67);
             this.btVolver.TabIndex = 33;
@@ -716,16 +716,16 @@
             this.tbpgReservas.CaptionTextStyle.ForeColor = System.Drawing.Color.White;
             this.tbpgReservas.CaptionTextStyle.Text = "Reservas";
             this.tbpgReservas.Controls.Add(this.btCancelarResultado2);
-            this.tbpgReservas.Controls.Add(this.elDataGridView1);
+            this.tbpgReservas.Controls.Add(this.dgvReserva);
             this.tbpgReservas.Controls.Add(this.btVerDetalle2);
             this.tbpgReservas.Controls.Add(this.gbBuscar2);
             this.tbpgReservas.Controls.Add(this.gbAcciones2);
-            this.tbpgReservas.Controls.Add(this.button4);
-            this.tbpgReservas.Controls.Add(this.button3);
+            this.tbpgReservas.Controls.Add(this.btVolverReserva);
+            this.tbpgReservas.Controls.Add(this.btInicioReserva);
             this.tbpgReservas.Controls.Add(this.gbDatosReserva);
             this.tbpgReservas.Location = new System.Drawing.Point(1, 23);
             this.tbpgReservas.Name = "tbpgReservas";
-            this.tbpgReservas.Size = new System.Drawing.Size(1183, 459);
+            this.tbpgReservas.Size = new System.Drawing.Size(1078, 555);
             // 
             // btCancelarResultado2
             // 
@@ -733,17 +733,18 @@
             this.btCancelarResultado2.FlatAppearance.BorderSize = 0;
             this.btCancelarResultado2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btCancelarResultado2.Image = ((System.Drawing.Image)(resources.GetObject("btCancelarResultado2.Image")));
-            this.btCancelarResultado2.Location = new System.Drawing.Point(814, 219);
+            this.btCancelarResultado2.Location = new System.Drawing.Point(824, 238);
             this.btCancelarResultado2.Name = "btCancelarResultado2";
             this.btCancelarResultado2.Size = new System.Drawing.Size(33, 33);
             this.btCancelarResultado2.TabIndex = 16;
             this.btCancelarResultado2.UseVisualStyleBackColor = true;
+            this.btCancelarResultado2.Click += new System.EventHandler(this.btCancelarResultado2_Click_1);
             // 
-            // elDataGridView1
+            // dgvReserva
             // 
-            this.elDataGridView1.BackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
-            this.elDataGridView1.BackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
-            this.elDataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvReserva.BackgroundStyle.PaintType = Klik.Windows.Forms.v1.Common.PaintTypes.Solid;
+            this.dgvReserva.BackgroundStyle.SolidColor = System.Drawing.SystemColors.Window;
+            this.dgvReserva.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -751,12 +752,12 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.elDataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
-            this.elDataGridView1.GridColor = System.Drawing.Color.LightGray;
-            this.elDataGridView1.Location = new System.Drawing.Point(87, 219);
-            this.elDataGridView1.Name = "elDataGridView1";
-            this.elDataGridView1.Size = new System.Drawing.Size(683, 150);
-            this.elDataGridView1.TabIndex = 5;
+            this.dgvReserva.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvReserva.GridColor = System.Drawing.Color.LightGray;
+            this.dgvReserva.Location = new System.Drawing.Point(80, 238);
+            this.dgvReserva.Name = "dgvReserva";
+            this.dgvReserva.Size = new System.Drawing.Size(683, 150);
+            this.dgvReserva.TabIndex = 5;
             // 
             // btVerDetalle2
             // 
@@ -764,7 +765,7 @@
             this.btVerDetalle2.FlatAppearance.BorderSize = 0;
             this.btVerDetalle2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btVerDetalle2.Image = ((System.Drawing.Image)(resources.GetObject("btVerDetalle2.Image")));
-            this.btVerDetalle2.Location = new System.Drawing.Point(776, 219);
+            this.btVerDetalle2.Location = new System.Drawing.Point(791, 238);
             this.btVerDetalle2.Name = "btVerDetalle2";
             this.btVerDetalle2.Size = new System.Drawing.Size(33, 33);
             this.btVerDetalle2.TabIndex = 15;
@@ -809,6 +810,7 @@
             this.btCancelarBuscar2.Size = new System.Drawing.Size(33, 33);
             this.btCancelarBuscar2.TabIndex = 13;
             this.btCancelarBuscar2.UseVisualStyleBackColor = true;
+            this.btCancelarBuscar2.Click += new System.EventHandler(this.btCancelarBuscar2_Click_1);
             // 
             // txtReservaBuscarPor2
             // 
@@ -838,6 +840,7 @@
             this.btReservaBuscarBuscar.Size = new System.Drawing.Size(33, 33);
             this.btReservaBuscarBuscar.TabIndex = 13;
             this.btReservaBuscarBuscar.UseVisualStyleBackColor = true;
+            this.btReservaBuscarBuscar.Click += new System.EventHandler(this.btReservaBuscarBuscar_Click_1);
             // 
             // gbAcciones2
             // 
@@ -883,6 +886,7 @@
             this.btReservaBuscar.Size = new System.Drawing.Size(33, 33);
             this.btReservaBuscar.TabIndex = 9;
             this.btReservaBuscar.UseVisualStyleBackColor = true;
+            this.btReservaBuscar.Click += new System.EventHandler(this.btReservaBuscar_Click_1);
             // 
             // btReservaGuardarNuevo
             // 
@@ -907,6 +911,7 @@
             this.btReservaCancelar.Size = new System.Drawing.Size(33, 33);
             this.btReservaCancelar.TabIndex = 12;
             this.btReservaCancelar.UseVisualStyleBackColor = true;
+            this.btReservaCancelar.Click += new System.EventHandler(this.btReservaCancelar_Click_1);
             // 
             // btReservaGuardar
             // 
@@ -943,6 +948,7 @@
             this.btReservaNuevo.Size = new System.Drawing.Size(33, 33);
             this.btReservaNuevo.TabIndex = 7;
             this.btReservaNuevo.UseVisualStyleBackColor = true;
+            this.btReservaNuevo.Click += new System.EventHandler(this.btReservaNuevo_Click_1);
             // 
             // btReservaModificar
             // 
@@ -968,29 +974,31 @@
             this.btReservaEliminar.TabIndex = 8;
             this.btReservaEliminar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btVolverReserva
             // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
-            this.button4.Location = new System.Drawing.Point(991, 364);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(78, 63);
-            this.button4.TabIndex = 4;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btVolverReserva.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btVolverReserva.FlatAppearance.BorderSize = 0;
+            this.btVolverReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btVolverReserva.Image = ((System.Drawing.Image)(resources.GetObject("btVolverReserva.Image")));
+            this.btVolverReserva.Location = new System.Drawing.Point(886, 460);
+            this.btVolverReserva.Name = "btVolverReserva";
+            this.btVolverReserva.Size = new System.Drawing.Size(78, 63);
+            this.btVolverReserva.TabIndex = 4;
+            this.btVolverReserva.UseVisualStyleBackColor = true;
+            this.btVolverReserva.Click += new System.EventHandler(this.btVolverReserva_Click);
             // 
-            // button3
+            // btInicioReserva
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.Location = new System.Drawing.Point(1075, 364);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(78, 63);
-            this.button3.TabIndex = 3;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btInicioReserva.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btInicioReserva.FlatAppearance.BorderSize = 0;
+            this.btInicioReserva.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btInicioReserva.Image = ((System.Drawing.Image)(resources.GetObject("btInicioReserva.Image")));
+            this.btInicioReserva.Location = new System.Drawing.Point(970, 460);
+            this.btInicioReserva.Name = "btInicioReserva";
+            this.btInicioReserva.Size = new System.Drawing.Size(78, 63);
+            this.btInicioReserva.TabIndex = 3;
+            this.btInicioReserva.UseVisualStyleBackColor = true;
+            this.btInicioReserva.Click += new System.EventHandler(this.btInicioReserva_Click);
             // 
             // gbDatosReserva
             // 
@@ -1154,7 +1162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1185, 483);
+            this.ClientSize = new System.Drawing.Size(1080, 579);
             this.Controls.Add(this.tbAlmacenes);
             this.DoubleBuffered = true;
             this.Name = "Almacen";
@@ -1186,7 +1194,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.txtNombre)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tbpgReservas)).EndInit();
             this.tbpgReservas.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.elDataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvReserva)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gbBuscar2)).EndInit();
             this.gbBuscar2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtReservaBuscarPor2)).EndInit();
@@ -1247,8 +1255,8 @@
         private System.Windows.Forms.Button btReservaNuevo;
         private System.Windows.Forms.Button btReservaGuardar;
         private System.Windows.Forms.Button btReservaGuardarNuevo;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btVolverReserva;
+        private System.Windows.Forms.Button btInicioReserva;
         private Klik.Windows.Forms.v1.EntryLib.ELGroupBox gbAcciones2;
         private Klik.Windows.Forms.v1.EntryLib.ELGroupBox gbBuscar2;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox txtReservaBuscarPor2;
@@ -1256,7 +1264,7 @@
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox txtTotalBultos;
         private Klik.Windows.Forms.v1.EntryLib.ELEntryBox txtCapacidad;
         private Klik.Windows.Forms.v1.EntryLib.ELComboBox cbAlmacen;
-        private Klik.Windows.Forms.v1.EntryLib.ELDataGridView elDataGridView1;
+        private Klik.Windows.Forms.v1.EntryLib.ELDataGridView dgvReserva;
         private Klik.Windows.Forms.v1.EntryLib.ELLabel lblFechaSalida;
         private Klik.Windows.Forms.v1.EntryLib.ELLabel lblFechaEntrada;
         private System.Windows.Forms.DateTimePicker dtpFechaSalida;
