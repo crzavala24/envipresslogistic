@@ -29,6 +29,7 @@ namespace EnvipressLogistic.LogicaNegocio
         private string puesto;
         private DateTime fecha_alta;
         private DateTime fecha_baja;
+        private int telefono;
 
         public string Dni
         {
@@ -114,6 +115,12 @@ namespace EnvipressLogistic.LogicaNegocio
             set { fecha_baja = value; }
         }
 
+        public int Telefono
+        {
+            get { return telefono; }
+            set { telefono = value; }
+        }
+
         public bool NuevaAlta(string dni, string nombre, string apellidos, DateTime fecha_nac, int edad, string estado_civil, string nacionalidad, string localidad, string provincia, string domicilio, long cc, string puesto, DateTime fecha_alta, DateTime fecha_baja)
         {
             throw new System.NotImplementedException();
@@ -135,7 +142,7 @@ namespace EnvipressLogistic.LogicaNegocio
             DataSet DSAux = new DataSet();
             try
             {
-               // DSAux = cadEmpleado.getDSEmpleados();
+                DSAux = cadEmpleado.getDSEmpleados();
             }
             catch (Exception ex)
             {
@@ -150,7 +157,7 @@ namespace EnvipressLogistic.LogicaNegocio
             DataSet DSAux = new DataSet();
             try
             {
-               // DSAux = cadEmpleado.getDSEmpleados(dni);
+               DSAux = cadEmpleado.getDSEmpleados(dni);
             }
             catch (Exception ex)
             {
@@ -166,7 +173,7 @@ namespace EnvipressLogistic.LogicaNegocio
             bool correct = false;
             try
             {
-                //correct = nEmpleado.InsertarEmpleado(this);
+                correct = nEmpleado.InsertarEmpleado(this);
             }
             catch (Exception ex)
             {
@@ -182,12 +189,29 @@ namespace EnvipressLogistic.LogicaNegocio
             bool correct = false;
             try
             {
-               // correct = mEmpleado.ModificarEmpleado(this);
+               correct = mEmpleado.ModificarEmpleado(this);
             }
             catch (Exception ex)
             {
                 ex.Message.ToString();
             }
+            return correct;
+        }
+
+        public bool EliminarEmpleado()
+        {
+            CADEmpleado eEmpleado = new CADEmpleado();
+            bool correct = false;
+
+            try
+            {
+                correct = eEmpleado.EliminarEmpleado(this);
+            }
+            catch (Exception ex)
+            {
+                ex.Message.ToString();
+            }
+
             return correct;
         }
     }

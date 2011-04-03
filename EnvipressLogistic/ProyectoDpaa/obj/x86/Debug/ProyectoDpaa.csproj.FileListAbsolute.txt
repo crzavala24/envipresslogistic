@@ -104,30 +104,5 @@ C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Incidencias.resources
 C:\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Pedidos.resources
 >>>>>>> .r143
 >>>>>>> .r150
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe.config
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.pdb
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\EnvipressLogisticBD.mdf
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\EnvipressLogisticBD_log.ldf
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\EnvipressLogistic.exe
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\EnvipressLogistic.pdb
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.dll
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.Shell.pdb
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\bin\Debug\Microsoft.WindowsAPICodePack.pdb
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Almacen.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Logueo.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Contabilidad.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Flota.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Incidencias.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Pedidos.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Personal.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Principal.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.Properties.Resources.resources
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\ResGen.read.1.tlog
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\ResGen.write.1.tlog
-C:\Documents and Settings\Compaq_Administrator.YOUR-4DACD0EA75\My Documents\Visual Studio 2010\Projects\ProyectoDpaa\obj\x86\Debug\EnvipressLogistic.exe.licenses
 C:\ProyectoDpaa\obj\x86\Debug\ResGen.read.1.tlog
 C:\ProyectoDpaa\obj\x86\Debug\ResGen.write.1.tlog
